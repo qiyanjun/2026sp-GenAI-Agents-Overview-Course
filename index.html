@@ -1,7 +1,122 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: default
+title: Home
+desc: 'Website for 2026 Spring -UVA-CS 2025sp-GenAI-LLM-Agents-Overview (Graduate Advanced Level) 
 ---
+
+<p><a name="topPage"></a></p>
+
+<div>
+
+<ul>
+  <li>Feel free to email me, when you find my typos or have comments. The covered materials are by no means an exhaustive list of machine learning, but are contents that we have taught or plan to teach in my machine learning introductory course.
+</li>
+  <li>
+    Please pay attention to special dates: <font color="#990000"><b>(0119,0303,0305)</b></font> no class, holiday or spring recess;  and  <font color="#990000"><b>(0428)</b></font> Last lesson day of Spring 2026 .  
+  </li>
+</ul>
+</div>
+
+<hr>
+
+
+<h1>  Website for 2026 Spring-UVA-CS GenAI Foundation and LLM Agents Overviews (Graduate and Undergraduate Advanced)  </h1>
+
+
+
+<hr>
+
+<h2>  Course Schedule and Notes  </h2>
+
+
+<p><font color="#990000"><b>The schedule below is tentative and is continually subject to change; We will move at whatever pace we find comfortable.&nbsp;</b></font>&nbsp;</p>
+
+<div class="posts">
+
+<table id="datatab3"  summary="Table of Lectures" border="1">
+<tr>
+ <h3><b>
+  <th>Date</th>
+  <th>Week</th>
+  <th>Title / Information </th>
+  <th>SlideDeck</th>
+  <th>Topic</th>
+  <th>Lead Team</th>
+  </b>
+  </h3>
+</tr>
+
+{% assign counter = 0 %}
+{% assign Qcounter = 0 %}
+
+{% assign currentTag = 0 %}
+{% assign sorted = site.contents %}
+
+{% assign ddates = "|0113|0115|0120|0122|0127|0129|0203|0205|0210|0212|0217|0219|0224|0226|0303|0305|0310|0312|0317|0319|0324|0326|0331|0402|0407|0409|0414|0416|0421|0423|0428 " | split: "|" %}
+
+{% assign dweeks = "|W1|W1|W2|W2|W3|W3|W4|W4|W5|W5|W6|W6|W7|W7|W8|W8|WB|WB|W9|W9|W10|W10|W11|W11|W12|W12|W13|W13|W14|W14|W15 " | split: "|" %}
+
+
+{% for post in sorted %}
+
+
+{% if currentTag == 0 %}
+  {% unless post.lectureVersion contains 'current'  %}
+    <tr><td align="center" bgcolor="#fff48f"  colspan="9">
+      <font color="#990000"><b>WE ARE HERE</b></font></td>
+    </tr>
+    {% assign currentTag=currentTag | plus:1 %}
+  {% endunless %}
+{% endif %}
+
+{% if  post.title contains "Section" %}
+  <tr><td align="center" bgcolor="#bafdfb"  colspan="9">
+      <font color="#990000"><h3><b>{{ post.title }}</b>
+      </h3></font></td>
+    </tr>
+{% else %}
+
+{% if  post.extra  %}
+  <tr bgcolor="#cccdc2" >
+  <td >Extra </td>
+  <td >Extra </td>
+  <td></td>
+{% elsif post.platform %}
+  <tr bgcolor="#81de76" >
+  <td >Platform </td>
+  <td >Platform </td>
+  <td></td>
+{% else %}
+  {% assign counter=counter | plus:1 %}
+  <tr >
+  <td>{{ ddates[counter] }} </td>
+  <td>{{ dweeks[counter] }}</td>
+
+{% endif %}
+
+<td><a href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }}</a></td>
+
+{% if post.lecture %}
+<td><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank"> {{ post.lecture }}</a></td>
+{% else %}
+<td></td>
+{% endif %}
+
+
+
+<td>{{ post.video }} </td>
+
+<td>{{ post.notes }} </td>
+
+</tr>
+
+{% endif %}
+
+{% endfor %}
+
+</table>
+
+
+<div style="position: fixed; bottom: 76px; left:10px; width: 88px; height: 36px; background-color: #FFCF79;">
+<a style="position: fixed; bottom:80px; left:10px;" href="#topPage" title="Back to Top">BackTop</a>
+</div>
