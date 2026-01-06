@@ -10,7 +10,7 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 
 ### Prerequisite:
 
-+ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate and senior undergraduate students with interests in generative deep learning models, foundations, applications, and related topics. 
++ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate students with interests in generative deep learning models, foundations, applications, and related topics. 
 
 
 ### General Description and Disclaimer: 
