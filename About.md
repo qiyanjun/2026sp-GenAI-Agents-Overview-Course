@@ -17,15 +17,16 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 
 + The course will take the form of a seminar instead of lectures by the instructor. 
 
-+ MoWe 3:30pm - 4:45pm  
-+ Olsson Hall 009
++ TuTh 3:30pm - 4:45pm  
++ Rice Hall
 
 + Each class session is a presentation (lecture) by a student group. All the students are required to read every session's required readings before it is discussed in a class, and sent their questions through Canvas in advance (as assignment).
 
 
 + It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
 
-+ Last spring's same course website was [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)
++ 2025 spring's same course website was [here](https://qiyanjun.github.io/2025sp-GenAI-Risk-Benefits/)
++ 2024 spring's same course website was [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)
 
 
 
