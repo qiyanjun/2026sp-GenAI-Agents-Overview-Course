@@ -8,8 +8,8 @@ video: instructor
 notes: deep nlp basics
 tags:
 - BasicLLM
-desc: 2025-S0
-term: 2025-seminarRead
+desc: 2026-S0
+term: 2026-seminarRead
 categories:
 - FMBasic
 ---
