@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Introduction
-lecture: W1.1-deepNNtext
+lecture: 
 lectureVersion: current
 extraContent: 
-video: instructor
+team: instructor
 notes: deep nlp basics
 tags:
 - BasicLLM
@@ -38,7 +38,7 @@ categories:
 + A good code walk through on transformer at [URL](https://nlp.seas.harvard.edu/annotated-transformer/)
 
 
-∂
+
 
 <!--excerpt.start-->
 

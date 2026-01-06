@@ -10,48 +10,35 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 
 ### Prerequisite:
 
-+ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate students with interests in generative deep learning models, foundations, applications, and related topics. 
++ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate students with interests in generative deep learning models, foundations, applications, and related LLM Agents topics. 
 
 
 ### General Description and Disclaimer: 
 
-+ The course will take the form of a seminar instead of lectures by the instructor. 
++ The course will take the form of a combination of seminar, lectures by the instructor and project deliverables from students. 
 
 + TuTh 3:30pm - 4:45pm  
 + Rice Hall
 
-+ Each class session is a presentation (lecture) by a student group. All the students are required to read every session's required readings before it is discussed in a class, and sent their questions through Canvas in advance (as assignment).
-
-
 + It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
 
-+ 2025 spring's same course website was [here](https://qiyanjun.github.io/2025sp-GenAI-Risk-Benefits/)
++ 2025 spring's same course website was [here](https://qiyanjun.github.io/2025sp-GenAI-overview/)
 + 2024 spring's same course website was [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)
 
++ ATT: This year we expand and put much more emphasis on the course projects than the previous two. 
 
 
 ### Course Expectations
 
 Students in the seminar are expected to:
-
-+ Every team is required to cover four of the class sessions.  Each team include 4+ students. 
-
-+ For each topic, a slide deck and an in-class presentation is expected from a team: 
-  - Everyone in a team needs to work on slide presentation of their assigned topics!
-  - Presentation is due on the present date~ 
++ Present Two SOTA Topics. For each topic, a slide deck and an in-class presentation is expected from a team: 
   - Example of Slide deck: [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits//Lectures/W3-LLMEvaluation-Team5.pdf)
+  - We recommend students to use 365 powerpoint [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=713ff34fdb3ac744f032f1f51d961937#login) to support their co-editing of presentation slide decks. 
 
++ Finish Two course projects  
+  - More details on final project, please check out the Project Page via sidebar! 
 
-
-+ Before each week, I will share the required readings through email on that week’s papers we plan to cover. Everyone is expected to submit a weekly assignment with 1 question per paper. 
-
-+ For each session, there will be a team of students charged with preparing a topic, analyzing, delivering a lecture and leading the classroom discussions. 
-
-+ Each team is expected to include 4+ students. Every teammber is expected to contribute with 12-15 slide pages covering concrete and educational contents about the papers we survey for the topic assigned to the team. Every student is expected to cover about 50% of a survey paper on the assigned topics. 
-
-+ We recommend students to use 365 powerpoint [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=713ff34fdb3ac744f032f1f51d961937#login) to support their co-editing of presentation slide decks. 
-
-+ Participate actively in class meetings. This means being prepared to contribute by  reading the assigned papers, and thinking about the materials deeply to be able to contribute well to discussions. Part of this preparation will involve posting your questions before each class.
++ Participate actively in class meets. This means being prepared to contribute by presenting assigned papers, and working activerly on your course projects.
 
 
 ### Course Websites
@@ -60,18 +47,16 @@ Students in the seminar are expected to:
 
 +  Assignment submissions via [Cavas site:](https://canvas.its.virginia.edu) 
 
-+ Course annoucement via: [2025sp-genai-overview-13860901@mail.canvas.its.virginia.edu](2025sp-genai-overview-13860901@mail.canvas.its.virginia.edu)
++ Course annoucement via: [?]
 
 + Course Discussion via Course Slack Space (please ask TA to get you in!) 
 
-+  Corrections or comments to [yanjun@virginia.edu](mailto:25sp_spec_top-1386091921101@mail.canvas.its.virginia.edu)
 
 + ##### Instructors: 
-  - Prof. [Yanjun Qi](https://qiyanjun.github.io/Homepage/) / [yanjun@virginia.edu](mailto:25sp_spec_top-1386091921101@mail.canvas.its.virginia.edu);
-  - TA: [Guangzhi Xiong](mailto:25sp_spec_top-1386091921101@mail.canvas.its.virginia.edu) 
-  - Instructor office hour: Tue: 7:30pm via Zoom 
-  - TA office hours: 11am-noon Mon / Wed 
-  - Presentation guiding hours: Sun 7:30pm via Zoom / Tue 7:30pm via Zoom
+  - Prof. [Yanjun Qi](https://qiyanjun.github.io/Homepage/) / [yanjun@virginia.edu](mailto:?);
+  - TA: [?] 
+  - Instructor office hour: TBD
+  - TA office hours: TBD
 
 
 ### Course Grading Policy
@@ -80,12 +65,9 @@ Students in the seminar are expected to:
 + Sit-in: No. This course is for registered students only.
 
 + Final grades will be based on.
-  - 60% for the quality of your four seminar presentations; 
-  - 15% for submitting questions before each session 
-  - for the rest of 25%
-     + option-1: 25% purely based on your project (You are expected to submit a 8-page double column final project report.) 
-     + option-2:  10% for the course attendance + 15% for the quality of your project (4-page double column final project report is needed; if longer and with good quality, extra credits will be given)!  
-     + More details on final project, please check out the Project Page via sidebar! 
+  - 30% for the quality of your seminar presentations; 
+  - 60% for the quality of your course projects; 
+  - 10% for the course attendance 
 
 
 ### Academic Integrity
