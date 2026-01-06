@@ -5,7 +5,7 @@ lecture:
 lectureVersion: current
 extraContent: 
 team: instructor
-notes: deep nlp basics
+notes: deep GenAI basics / FM in healthcare survey 
 tags:
 - BasicLLM
 desc: 2026-S0
