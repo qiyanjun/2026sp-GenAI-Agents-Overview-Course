@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  {% assign post = page  %} 
+  
+ <ul>
+  {% if post.lecture %}
+  <li><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">SlideDeck: 
+  {{ post.lecture }}</a></li>
+  <li>Version: {{ post.lectureVersion }}</li>
+  {% endif %}
+
+
+  {% if post.video %}
+  <li>Lead team:   {{ post.video }} </li>
+  {% endif %}
+
+  {% if post.notes %}
+  <li>Notes: {{ post.notes }} </li>
+  {% endif %}
+
+
+</ul>
+
+
+
+  {% for temp in post.tags %}
+    <a class="button" href="{{ site.baseurl }}/LecturesByTags/#{{temp | replace:" ","-" }}">{{ temp }}</a>
+  {% endfor %}
+
+<br>
+
+  {{ post.content }}
+
+
+</div>
+
+
