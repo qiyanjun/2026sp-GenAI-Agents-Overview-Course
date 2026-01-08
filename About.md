@@ -23,6 +23,8 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 + It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
 
 + 2025 spring's same course website was [here](https://qiyanjun.github.io/2025sp-GenAI-overview/)
+  - [25 Sring course's students project github] (https://github.com/Qdata4Capstone/uva-25-spring-genai-students-projects/tree/main/students-projects-code)
+
 + 2024 spring's same course website was [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)
 
 + ATT: This year we expand and put much more emphasis on the course projects than the previous two. 
