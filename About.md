@@ -32,8 +32,9 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 
 ### Course Expectations
 
-Students in the seminar are expected to:
-+ Present Two SOTA Topics. For each topic, a slide deck and an in-class presentation is expected from a team: 
+Student teams (size 3) in the seminar are expected to:
+
++ Present One SOTA Topics. For each topic, a slide deck and an in-class presentation is expected from a team: 
   - Example of Slide deck: [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits//Lectures/W3-LLMEvaluation-Team5.pdf)
   - We recommend students to use 365 powerpoint [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=713ff34fdb3ac744f032f1f51d961937#login) to support their co-editing of presentation slide decks. 
 
@@ -67,9 +68,10 @@ Students in the seminar are expected to:
 + Sit-in: No. This course is for registered students only.
 
 + Final grades will be based on.
-  - 30% for the quality of your seminar presentations; 
-  - 60% for the quality of your course projects; 
-  - 10% for the course attendance 
+  - 15% for the quality of your seminar presentations; 
+  - 15% for the course attendance 
+  - 35% for the quality of your first course projects; 
+  - 35% for the quality of your second course projects; 
 
 
 ### Academic Integrity
