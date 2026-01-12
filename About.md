@@ -156,7 +156,7 @@ Understanding the foundation model that serves as the "brain" of agentic systems
 | Advanced Transformer Architectures | W14_LLM_advanced_arch |  [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
 
 
-### 2025 HIGH-IMPACT PAPERS
+### 2025 HIGH-IMPACT PAPERS on this topic 
 
 #### a. **Large Language Model Agent: A Survey on Methodology, Applications and Challenges** (March 2025)
 - **Link:** https://arxiv.org/abs/2503.21460
@@ -188,8 +188,7 @@ Exploring how agents reason through complex problems, including code generation,
 | Inference Test Time Scaling Law | Week14.1-T5-Test-Time-Scaling | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
 | Self-exam LLM and Reasoning | W12-team-2-self-exam-LLM | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)  |
 
-### 2025 HIGH-IMPACT PAPERS
-
+### 2025 HIGH-IMPACT PAPERS on this topic 
 #### a. ⭐ **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** (January 2025)
 - **Authors:** DeepSeek-AI (198 authors)
 - **Venue:** Nature (September 2025) + arXiv
@@ -234,8 +233,7 @@ Understanding how agents perceive and process different types of information fro
 | Domain Centered FMs | W9-T2-domain-LLM | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
 
 
-### Recent 25 papers on DOMAIN-SPECIFIC AGENTS
-
+### 2025 HIGH-IMPACT PAPERS on this topic 
 #### a. **From Single-Agent to Multi-Agent: Legal Agents Review** (November 2025)
 - **Venue:** AI Agent Journal 2025
 - **Link:** https://www.oaepublish.com/articles/aiagent.2025.06
@@ -286,8 +284,7 @@ Exploring how agents maintain, retrieve, and use information across interactions
 | LLM Hallucination | W9-Team3-P4-hallucination | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
 
 
-### 2025 recent papers on : MEMORY & KNOWLEDGE SYSTEMS
-
+### 2025 HIGH-IMPACT PAPERS on this topic 
 #### a. **Memory in the Age of AI Agents: A Survey** (2025)
 - **GitHub Repository:** https://github.com/Shichun-Liu/Agent-Memory-Paper-List
 
@@ -327,8 +324,7 @@ Understanding how agents execute actions through external tools, APIs, and inter
 
 
 
-###  2025 HIGH-IMPACT PAPERS on Plannikng & Tool Use
-
+### 2025 HIGH-IMPACT PAPERS on this topic 
 #### a. **AgentGym-RL: Training Agents for Long-Horizon Decision Making** (September 2025)
 - **GitHub:** https://github.com/WooooDyy/LLM-Agent-Paper-List
 - **Innovation:** RL version of AgentGym for learning from interactive environments
@@ -357,7 +353,7 @@ World models enable agents to build internal representations of their environmen
 
 
 
-### 2025 recent papers on : WORLD MODELS & ENVIRONMENT UNDERSTANDING
+### 2025 HIGH-IMPACT PAPERS on this topic 
 #### a. **Deep Research: A Survey of Autonomous Research Agents** (August 2025)
 - **Link:** https://arxiv.org/html/2508.12752v1
 
@@ -403,8 +399,7 @@ How agents break down complex tasks, form plans, and orchestrate multi-step work
 
 
 
-### 2025 recent papers on : PLANNING & REASONING
-
+### 2025 HIGH-IMPACT PAPERS on this topic 
 #### a. **Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling** (December 2025)
 - **Authors:** Annu Rana, Gaurav Kumar
 - **Link:** https://arxiv.org/abs/2512.14474
@@ -446,8 +441,7 @@ Understanding how multiple agents work together to solve complex problems.
 | MultiAgent LLMs | W13-MultiAgentLLMs | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
 
 
-### 2025 good papers on : MULTI-AGENT SYSTEMS & COORDINATION
-
+### 2025 HIGH-IMPACT PAPERS on this topic 
 
 #### a. **MAR: Multi-Agent Reflexion Improves Reasoning** (December 2025)
 - **Link:** https://arxiv.org/abs/2512.20845
@@ -532,8 +526,7 @@ Techniques for improving model capabilities and efficiency.
 | Model Editing and Disgorgement | W10-T5-ModelEditing | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
 
 
-### 25 good papers on TRAINING & OPTIMIZATION
-
+### 2025 HIGH-IMPACT PAPERS on this topic 
 #### a. **Kimi k1.5: Scaling Reinforcement Learning with LLMs** (January 2025)
 - **Link:** https://arxiv.org/abs/2501.12599
 
@@ -575,8 +568,7 @@ Understanding the infrastructure and systems for deploying agents in production.
 | LLM Interpretability, Trust and Knowledge Conflicts | W10-T6-LLMInterpretibility | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
 
 
-### 2025 good papers to read: EVALUATION & BENCHMARKING when deployed (Critical Infrastructure)
-
+### 2025 HIGH-IMPACT PAPERS on a related topic: benchmaarking after deployed 
 #### a. **Evaluation and Benchmarking of LLM Agents: A Survey** (July 2025)
 - **Link:** https://arxiv.org/html/2507.21504v1
 - **Comprehensive taxonomy**: Evaluation objectives (behavior, capabilities, reliability, safety) × evaluation process (interaction modes, datasets, metrics, tooling, environments)
