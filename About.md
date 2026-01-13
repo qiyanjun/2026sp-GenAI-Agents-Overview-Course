@@ -20,7 +20,7 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 + TuTh 3:30pm - 4:45pm  
 + Rice Hall
 
-+ It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
++ It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar plus projects using team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
 
 + 2025 spring's same course website was [here](https://qiyanjun.github.io/2025sp-GenAI-overview/)
   - [25 Spring course's students project github HERE](https://github.com/Qdata4Capstone/uva-25-spring-genai-students-projects/tree/main/students-projects-code)
@@ -38,8 +38,10 @@ Student teams are expected to:
   - Example of Slide deck: [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits//Lectures/W3-LLMEvaluation-Team5.pdf)
   - We recommend students to use 365 powerpoint [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=713ff34fdb3ac744f032f1f51d961937#login) to support their co-editing of presentation slide decks. 
 
-+ Finish Two course projects  
-  - More details on project, please check out the Project Guide Page via sidebar! 
++ Finish two course projects  
+  - Course Project A: Build agents to benefit domains like healthcare, finance or .....
+  - Course Project B: A deep dive project on a component of LLM agents or property of LLM agents ... 
+  - Please check out more details on project viathe Project Guide Page via sidebar! 
 
 + Participate actively in class meets. This means being prepared to contribute by presenting assigned papers, and working activerly on your course projects.
 
@@ -47,17 +49,14 @@ Student teams are expected to:
 ### Course Websites
 
 + Course schedule and materials  @ [https://qiyanjun.github.io/2025sp-GenAI-overview/](https://qiyanjun.github.io/2025sp-GenAI-overview/)
-
 +  Assignment submissions via [Cavas site:](https://canvas.its.virginia.edu) 
-
-+ Course annoucement via: [?]
-
++ Course annoucement via Canvas Annoucement
 + Course Discussion via Course Slack Space (please ask TA to get you in!) 
 
 
 + ##### Instructors: 
   - Prof. [Yanjun Qi](https://qiyanjun.github.io/Homepage/) / [yanjun@virginia.edu](mailto:?);
-  - TA: [?] 
+  - TA: [Alex Su](mailto:acf7ea@virginia.edu)  
   - Instructor office hour: TBD
   - TA office hours: TBD
 
@@ -160,18 +159,17 @@ Understanding the foundation model that serves as the "brain" of agentic systems
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
 
-#### a. **Large Language Model Agent: A Survey on Methodology, Applications and Challenges** (March 2025)
-- **Link:** https://arxiv.org/abs/2503.21460
-- **GitHub:** https://github.com/luo-junyu/Awesome-Agent-Papers
-- **Framework Coverage:** Brain-Perception-Action model, memory systems, planning mechanisms, multi-agent coordination, evolutionary pathways, evaluation methodologies
++ a. Large Language Model Agent: A Survey on Methodology, Applications and Challenges (March 2025)
+  - Link: https://arxiv.org/abs/2503.21460
+  - GitHub: https://github.com/luo-junyu/Awesome-Agent-Papers
+  - Framework Coverage: Brain-Perception-Action model, memory systems, planning mechanisms, multi-agent coordination, evolutionary pathways, evaluation methodologies
 
 
-#### b. **A Survey on Large Language Model based Autonomous Agents** (Updated March 2025)
-- **Links:**
++ b. A Survey on Large Language Model based Autonomous Agents** (Updated March 2025)
   - arXiv: https://arxiv.org/abs/2308.11432  
-- Unified framework: Brain (profiling, memory, planning, action)
-- Extensive application coverage: single-agent, multi-agent, human-agent cooperation
-- Agent societies analysis: behavior, personality, social phenomena
+  - Unified framework: Brain (profiling, memory, planning, action)
+  - Extensive application coverage: single-agent, multi-agent, human-agent cooperation
+  - Agent societies analysis: behavior, personality, social phenomena
 
 
 ---
@@ -190,30 +188,30 @@ Exploring how agents reason through complex problems, including code generation,
 | Inference Test Time Scaling Law | Week14.1-T5-Test-Time-Scaling | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
 | Self-exam LLM and Reasoning | W12-team-2-self-exam-LLM | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)  |
 
+
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-#### a. ⭐ **DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning** (January 2025)
-- **Authors:** DeepSeek-AI (198 authors)
-- **Venue:** Nature (September 2025) + arXiv
-- **Links:**
+
++ a. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (January 2025)
+  - Authors: DeepSeek-AI (198 authors)
+  - Venue: Nature (September 2025) + arXiv
   - arXiv: https://arxiv.org/abs/2501.12948
   - Nature: https://www.nature.com/articles/s41586-025-09422-z  
   - HuggingFace: https://huggingface.co/papers/2501.12948
   - GitHub: https://github.com/deepseek-ai/DeepSeek-R1
-- **Pure RL approach** - Shows reasoning emerges without supervised demonstrations
-- **Remarkable results**: AIME 2024 accuracy jumped from 15.6% → 71.0% (pass@1) → 86.7% (majority voting), matching OpenAI o1
-- **Emergent behaviors**: Self-reflection, verification, strategy adaptation, "aha moments"
-- **Open source**: Released models from 1.5B to 671B parameters
-- **Industry impact**: Triggered the "reasoning model" race across all major labs
-- **Key Innovation:** Demonstrates that advanced reasoning patterns emerge naturally through GRPO (Group Relative Policy Optimization) without human-labeled trajectories. The paper shows thinking time scales with performance - agents learn to "think longer" for harder problems.
+  - Pure RL approach - Shows reasoning emerges without supervised demonstrations
+  - Remarkable results: AIME 2024 accuracy jumped from 15.6% → 71.0% (pass@1) → 86.7% (majority voting), matching OpenAI o1
+  - Emergent behaviors: Self-reflection, verification, strategy adaptation, "aha moments"
+  - Open source: Released models from 1.5B to 671B parameters
+  - Industry impact: Triggered the "reasoning model" race across all major labs
+  - Key Innovation: Demonstrates that advanced reasoning patterns emerge naturally through GRPO (Group Relative Policy Optimization) without human-labeled trajectories. The paper shows thinking time scales with performance - agents learn to "think longer" for harder problems.
 
 
-#### b. Reasoning Language Models: A Blueprint** (January 2025)
-- **Link:** https://arxiv.org/abs/2501.11223
-
-**Survey Focus:** Reinforcement learning approaches for reasoning
-- Connects to DeepSeek-R1, Kimi k1.5, and other reasoning models
-- Comprehensive taxonomy of RLVR (Reinforcement Learning with Verifiable Rewards)
-- Discusses emergent reasoning patterns and distillation to smaller models
++ b. Reasoning Language Models: A Blueprint (January 2025)
+  - https://arxiv.org/abs/2501.11223
+  - Reinforcement learning approaches for reasoning
+  - Connects to DeepSeek-R1, Kimi k1.5, and other reasoning models
+  - Comprehensive taxonomy of RLVR (Reinforcement Learning with Verifiable Rewards)
+  - Discusses emergent reasoning patterns and distillation to smaller models
 
 
 ---
@@ -236,37 +234,36 @@ Understanding how agents perceive and process different types of information fro
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-#### a. **From Single-Agent to Multi-Agent: Legal Agents Review** (November 2025)
-- **Venue:** AI Agent Journal 2025
-- **Link:** https://www.oaepublish.com/articles/aiagent.2025.06
-- **Core tasks**: Legal information retrieval, QA, judgment prediction, text generation
-- **Evaluation benchmarks**: LAiW (Chinese practical), UCL-Bench (user-centric), JuDGE (judgment documents)
-- **Single-agent challenges**: Trustworthiness, explainability, factuality
-- **Multi-agent systems**: Collaborative reasoning, specialized roles (researcher, analyst, writer)
-- **Future directions**: Cross-jurisdictional interoperability via legal knowledge graphs, ethical governance
++ a. From Single-Agent to Multi-Agent: Legal Agents Review (November 2025)
+  - Venue: AI Agent Journal 2025
+  - Link: https://www.oaepublish.com/articles/aiagent.2025.06
+  - Core tasks: Legal information retrieval, QA, judgment prediction, text generation
+  - Evaluation benchmarks: LAiW (Chinese practical), UCL-Bench (user-centric), JuDGE (judgment documents)
+  - Single-agent challenges: Trustworthiness, explainability, factuality
+  - Multi-agent systems: Collaborative reasoning, specialized roles (researcher, analyst, writer)
+  - Future directions: Cross-jurisdictional interoperability via legal knowledge graphs, ethical governance
 
 
-#### b. **LitMOF: LLM-Driven Multi-Agent Curation of Materials Database** (December 2025)
-- **Link:** https://arxiv.org/abs/2512.01693
-- **Problem**: Nearly half of Metal-Organic Framework (MOF) database entries contain structural errors
-- **Solution**: Multi-agent framework validating crystallographic information from literature
-- **Results**:
-  - Curated LitMOF-DB: 118,464 computation-ready structures
-  - Corrected 69% (6,161 MOFs) of invalid entries in CoRE MOF database
-  - Discovered 12,646 experimentally reported MOFs absent from existing resources
-- **Paradigm:** Self-correcting scientific databases through LLM-driven curation
++ b. LitMOF: LLM-Driven Multi-Agent Curation of Materials Database (December 2025)
+  - Link: https://arxiv.org/abs/2512.01693
+  - Problem: Nearly half of Metal-Organic Framework (MOF) database entries contain structural errors
+  - Solution: Multi-agent framework validating crystallographic information from literature
+  - Results:
+    - Curated LitMOF-DB: 118,464 computation-ready structures
+    - Corrected 69% (6,161 MOFs) of invalid entries in CoRE MOF database
+    - Discovered 12,646 experimentally reported MOFs absent from existing resources
+  - Paradigm: Self-correcting scientific databases through LLM-driven curation
 
 
-#### c. **LongVideoAgent: Multi-Agent Reasoning with Long Videos** (December 2025)
-- **Link:** https://arxiv.org/abs/2512.20618
-**Architecture:**
-- **Master agent**: Coordinates with step limit, trained via RL
-- **Grounding agent**: Localizes question-relevant segments
-- **Vision agent**: Extracts targeted textual observations from video
-- **Training:** Reinforcement learning to encourage concise, correct, efficient cooperation
-- **Benchmark:** LongTVQA and LongTVQA+ (episode-level datasets from TVQA/TVQA+)
-- **Results:** Significantly outperforms non-agent baselines on hour-long video reasoning
-
++ c. LongVideoAgent: Multi-Agent Reasoning with Long Videos (December 2025)
+  - Link: https://arxiv.org/abs/2512.20618
+  Architecture:
+  - Master agent: Coordinates with step limit, trained via RL
+  - Grounding agent: Localizes question-relevant segments
+  - Vision agent: Extracts targeted textual observations from video
+  - Training: Reinforcement learning to encourage concise, correct, efficient cooperation
+  - Benchmark: LongTVQA and LongTVQA+ (episode-level datasets from TVQA/TVQA+)
+  - Results: Significantly outperforms non-agent baselines on hour-long video reasoning
 
 ---
 
@@ -287,23 +284,20 @@ Exploring how agents maintain, retrieve, and use information across interactions
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-#### a. **Memory in the Age of AI Agents: A Survey** (2025)
-- **GitHub Repository:** https://github.com/Shichun-Liu/Agent-Memory-Paper-List
 
-**Comprehensive Coverage of Memory Systems:**
-- **MIRIX**: Multi-Agent Memory System (July 2025)
-- **Hierarchical Memory**: Efficient long-term reasoning (July 2025)
-- **G-Memory**: Tracing memory for multi-agent systems (June 2025)
-- **MemGuide**: Intent-driven memory selection (May 2025)
-- **EverMemOS**: Self-organizing memory operating system (January 2026)
-- **Key Distinction:** Agent memory vs LLM memory vs RAG vs context engineering
-
-**Major Papers:**
-- A-MEM: Agentic Memory for LLM Agents (Feb 2025)
-- WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning (Dec 2025)
-- CAM: Constructivist View of Agentic Memory (Oct 2025)
-
-
++ a. Memory in the Age of AI Agents: A Survey (2025)
+  - GitHub Repository: https://github.com/Shichun-Liu/Agent-Memory-Paper-List
+  - Comprehensive Coverage of Memory Systems:
+    - MIRIX: Multi-Agent Memory System (July 2025)
+    - Hierarchical Memory: Efficient long-term reasoning (July 2025)
+    - G-Memory: Tracing memory for multi-agent systems (June 2025)
+    - MemGuide: Intent-driven memory selection (May 2025)
+    - EverMemOS: Self-organizing memory operating system (January 2026)
+    - Key Distinction: Agent memory vs LLM memory vs RAG vs context engineering
+  - Major Papers:
+    - A-MEM: Agentic Memory for LLM Agents (Feb 2025)
+    - WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning (Dec 2025)
+    - CAM: Constructivist View of Agentic Memory (Oct 2025)
 
 ---
 
@@ -327,10 +321,11 @@ Understanding how agents execute actions through external tools, APIs, and inter
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-#### a. **AgentGym-RL: Training Agents for Long-Horizon Decision Making** (September 2025)
-- **GitHub:** https://github.com/WooooDyy/LLM-Agent-Paper-List
-- **Innovation:** RL version of AgentGym for learning from interactive environments
-- **Features:** Interactive frontend for trajectory visualization, multi-turn RL
+
++ a. AgentGym-RL: Training Agents for Long-Horizon Decision Making (September 2025)
+  - https://github.com/WooooDyy/LLM-Agent-Paper-List
+  - RL version of AgentGym for learning from interactive environments
+  - Interactive frontend for trajectory visualization, multi-turn RL
 
 
 ---
@@ -356,31 +351,32 @@ World models enable agents to build internal representations of their environmen
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-#### a. **Deep Research: A Survey of Autonomous Research Agents** (August 2025)
-- **Link:** https://arxiv.org/html/2508.12752v1
 
-**Research Agent Architecture:**
-- **Planning strategies**: World model simulation, modular design search, human-like reasoning synthesis, self-refinement
-- **World models**: LLMs as implicit world models, graph-based structured knowledge
-- **Meta-learning**: MPO (Meta-Plan Optimization) - adaptive tuning across environments
-- **Architecture search**: AgentSquare for automatic pipeline assembly
++ a. Deep Research: A Survey of Autonomous Research Agents (August 2025)
+  - Link: https://arxiv.org/html/2508.12752v1
 
-**DeepResearchBench:** Evaluates report fidelity, citation accuracy, comprehensive coverage
+  Research Agent Architecture:
+  - Planning strategies: World model simulation, modular design search, human-like reasoning synthesis, self-refinement
+  - World models: LLMs as implicit world models, graph-based structured knowledge
+  - Meta-learning: MPO (Meta-Plan Optimization) - adaptive tuning across environments
+  - Architecture search: AgentSquare for automatic pipeline assembly
 
-**Key Challenge:** Plan brittleness, lack of robustness to ambiguous queries, evaluation coarseness
+  DeepResearchBench: Evaluates report fidelity, citation accuracy, comprehensive coverage
 
-#### b. **Towards Scientific Intelligence: LLM-based Scientific Agents** (2025)
-- Roadmap for scientific discovery with LLM agents
-- Differentiation from general agents
+  Key Challenge: Plan brittleness, lack of robustness to ambiguous queries, evaluation coarseness
 
-#### c. **A Survey of Data Science Agents** (Published October 2025)
-- **Venue:** Journal of the American Statistical Association
-- **Link:** https://www.tandfonline.com/doi/full/10.1080/00031305.2025.2561140
-- Comprehensive review of LLM agents for data analysis, visualization, ML workflows
++ b. Towards Scientific Intelligence: LLM-based Scientific Agents (2025)
+  - Roadmap for scientific discovery with LLM agents
+  - Differentiation from general agents
 
-#### d. **CitySim: Modeling Urban Behaviors with LLM-Driven Agents** (2025)
-- Urban simulation using recursive value-driven approach
-- Scalable agent-based modeling for city dynamics
++ c. A Survey of Data Science Agents (Published October 2025)
+  - Venue: Journal of the American Statistical Association
+  - Link: https://www.tandfonline.com/doi/full/10.1080/00031305.2025.2561140
+  - Comprehensive review of LLM agents for data analysis, visualization, ML workflows
+
++ d. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
+  - Urban simulation using recursive value-driven approach
+  - Scalable agent-based modeling for city dynamics
 
 
 ---
@@ -402,31 +398,32 @@ How agents break down complex tasks, form plans, and orchestrate multi-step work
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-#### a. **Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling** (December 2025)
-- **Authors:** Annu Rana, Gaurav Kumar
-- **Link:** https://arxiv.org/abs/2512.14474
 
-**Two-Phase Paradigm:**
-1. **Modeling Phase**: LLM constructs explicit model (entities, state variables, actions, constraints)
-2. **Solution Phase**: Generate plan based on explicit model
-- Reduces constraint violations across medical scheduling, route planning, resource allocation, logic puzzles
-- Outperforms Chain-of-Thought and ReAct
-- **Critical finding**: Many planning failures stem from representational deficiencies, not reasoning limitations
+Here's the text with all bold formatting removed:
 
-**Domains Tested:** Medical scheduling, route planning, resource allocation, logic puzzles, procedural synthesis
+```markdown
++ a. Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling (December 2025)
+  - Link: https://arxiv.org/abs/2512.14474
+
+  Two-Phase Paradigm:
+  1. Modeling Phase: LLM constructs explicit model (entities, state variables, actions, constraints)
+  2. Solution Phase: Generate plan based on explicit model
+  - Reduces constraint violations across medical scheduling, route planning, resource allocation, logic puzzles
+  - Outperforms Chain-of-Thought and ReAct
+  - Critical finding: Many planning failures stem from representational deficiencies, not reasoning limitations
+
+  Domains Tested: Medical scheduling, route planning, resource allocation, logic puzzles, procedural synthesis
 
 
-#### b. **EnCompass: Separating Search from Agent Workflows** (December 2025)
-- **Links:**
++ b. EnCompass: Separating Search from Agent Workflows (December 2025)
   - arXiv: https://arxiv.org/abs/2512.03571
   - Press: https://techxplore.com/news/2025-12-ai-agents-results-large-language.html
+  Key Innovation: Separates search strategy from workflow code
+  - Performance: 15-40% accuracy boost on code repository translation
+  - Search strategies: Backtracking, parallel exploration, beam search (best: two-level beam search)
 
-**Key Innovation:** Separates search strategy from workflow code
-- **Performance**: 15-40% accuracy boost on code repository translation
-- **Search strategies**: Backtracking, parallel exploration, beam search (best: two-level beam search)
-
-**Use Cases:** Code translation, digital grid transformation rules
-
+  Use Cases: Code translation, digital grid transformation rules
+```
 
 ---
 
@@ -445,39 +442,36 @@ Understanding how multiple agents work together to solve complex problems.
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
 
-#### a. **MAR: Multi-Agent Reflexion Improves Reasoning** (December 2025)
-- **Link:** https://arxiv.org/abs/2512.20845
-- **Key Idea:** Multi-persona debators prevent degeneration of thought
-- **Results:** 47% EM on HotPot QA, 82.7% on HumanEval
++ a. MAR: Multi-Agent Reflexion Improves Reasoning (December 2025)
+  - Link: https://arxiv.org/abs/2512.20845
+  - Key Idea: Multi-persona debators prevent degeneration of thought
+  - Results: 47% EM on HotPot QA, 82.7% on HumanEval
 
 
++ b. Towards a Science of Scaling Agent Systems (December 2025)
+  - Link: https://arxiv.org/abs/2512.08296
 
-#### b. **Towards a Science of Scaling Agent Systems** (December 2025)
-- **Link:** https://arxiv.org/abs/2512.08296
+  Quantitative Scaling Laws:
+  - 180 configurations tested: 5 architectures (single, independent, centralized, decentralized, hybrid) × 3 LLM families × 4 benchmarks
+  - Key findings:
+    - Capability saturation: Coordination has diminishing returns above ~45% single-agent baseline
+    - Error amplification: Independent agents amplify errors 17.2×, centralized reduces to 4.4×
+    - Task dependency: Centralized excels on parallelizable tasks (+80.8%), decentralized on web navigation (+9.2%)
+    - Sequential tasks: All multi-agent variants degrade performance by 39-70%
+  - Predictive framework: 87% accuracy on held-out configurations
+  - Validated on GPT-5.2 (MAE=0.071)
 
-**Quantitative Scaling Laws:**
-- **180 configurations tested**: 5 architectures (single, independent, centralized, decentralized, hybrid) × 3 LLM families × 4 benchmarks
-- **Key findings**:
-  - **Capability saturation**: Coordination has diminishing returns above ~45% single-agent baseline
-  - **Error amplification**: Independent agents amplify errors 17.2×, centralized reduces to 4.4×
-  - **Task dependency**: Centralized excels on parallelizable tasks (+80.8%), decentralized on web navigation (+9.2%)
-  - **Sequential tasks**: All multi-agent variants degrade performance by 39-70%
-- **Predictive framework**: 87% accuracy on held-out configurations
-- **Validated on GPT-5.2** (MAE=0.071)
 
-**Impact:** First rigorous quantitative framework for agent coordination
++ c. Multi-Agent Collaboration Mechanisms: A Survey of LLMs (January 2025)
+  - Link: https://arxiv.org/abs/2501.06322
 
-#### c. **Multi-Agent Collaboration Mechanisms: A Survey of LLMs** (January 2025)
-- **Link:** https://arxiv.org/abs/2501.06322
-
-**Framework Dimensions:**
-- **Actors**: Agents involved in collaboration
-- **Types**: Cooperation, competition, coopetition
-- **Structures**: Peer-to-peer, centralized, distributed
-- **Strategies**: Role-based, model-based
-- **Coordination protocols**: Communication patterns
-- **Applications**: 5G/6G networks, Industry 5.0, question answering, social/cultural settings
-
+  Framework Dimensions:
+  - Actors: Agents involved in collaboration
+  - Types: Cooperation, competition, coopetition
+  - Structures: Peer-to-peer, centralized, distributed
+  - Strategies: Role-based, model-based
+  - Coordination protocols: Communication patterns
+  - Applications: 5G/6G networks, Industry 5.0, question answering, social/cultural settings
 
 
 ---
@@ -529,29 +523,27 @@ Techniques for improving model capabilities and efficiency.
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-#### a. **Kimi k1.5: Scaling Reinforcement Learning with LLMs** (January 2025)
-- **Link:** https://arxiv.org/abs/2501.12599
++ a. Kimi k1.5: Scaling Reinforcement Learning with LLMs (January 2025)
+  - Link: https://arxiv.org/abs/2501.12599
 
-**Contribution:** Alternative approach to scaling reasoning via RL
-- Complements DeepSeek-R1 with different architectural choices
-- Emphasizes scaling strategies for RL training
-- Addresses computational efficiency in large-scale RL
+  Contribution: Alternative approach to scaling reasoning via RL
+  - Complements DeepSeek-R1 with different architectural choices
+  - Emphasizes scaling strategies for RL training
+  - Addresses computational efficiency in large-scale RL
 
 
-#### b. **The Landscape of Agentic Reinforcement Learning for LLMs** (September 2025)
++ b. The Landscape of Agentic Reinforcement Learning for LLMs (September 2025)
   - Referenced in: https://github.com/zjunlp/LLMAgentPapers
+  - Taxonomy of agentic RL approaches
+  - Training methods: GRPO, PPO variations, RLVR
+  - Policy optimization: Group-in-Group, Stepwise Progress Attribution (SPA-RL)
+  - Challenges: Reward hacking, sample efficiency, exploration-exploitation
+  - Applications: Reasoning, planning, multi-agent coordination
+  - Key Papers Covered:
+    - GRPO (Group Relative Policy Optimization)
+    - History Resampling Policy Optimization (SRPO)
+    - PVPO (Pre-Estimated Value-Based Policy Optimization)
 
-**Comprehensive RL Survey:**
-- **Taxonomy** of agentic RL approaches
-- **Training methods**: GRPO, PPO variations, RLVR
-- **Policy optimization**: Group-in-Group, Stepwise Progress Attribution (SPA-RL)
-- **Challenges**: Reward hacking, sample efficiency, exploration-exploitation
-- **Applications**: Reasoning, planning, multi-agent coordination
-
-**Key Papers Covered:**
-- GRPO (Group Relative Policy Optimization)
-- History Resampling Policy Optimization (SRPO)
-- PVPO (Pre-Estimated Value-Based Policy Optimization)
 
 ---
 
@@ -571,53 +563,52 @@ Understanding the infrastructure and systems for deploying agents in production.
 
 
 ### 2025 HIGH-IMPACT PAPERS on a related topic: benchmaarking after deployed 
-#### a. **Evaluation and Benchmarking of LLM Agents: A Survey** (July 2025)
-- **Link:** https://arxiv.org/html/2507.21504v1
-- **Comprehensive taxonomy**: Evaluation objectives (behavior, capabilities, reliability, safety) × evaluation process (interaction modes, datasets, metrics, tooling, environments)
-- **Enterprise focus**: Role-based access control, reliability guarantees, long-term interaction, compliance
-- **Novel metrics**: Consistency (pass@k vs all-k), robustness under input variations
+
+- OSWorld Leaderboard: https://os-world.github.io/ (Industry standard for computer-use evaluation)
+- WebArena Project: https://webarena.dev/ (Foundational for web agent development)
+- AgentBench GitHub: https://github.com/THUDM/AgentBench
+
++ a. Evaluation and Benchmarking of LLM Agents: A Survey (July 2025)
+  - Link: https://arxiv.org/html/2507.21504v1
+  - Comprehensive taxonomy: Evaluation objectives (behavior, capabilities, reliability, safety) × evaluation process (interaction modes, datasets, metrics, tooling, environments)
+  - Enterprise focus: Role-based access control, reliability guarantees, long-term interaction, compliance
+  - Novel metrics: Consistency (pass@k vs all-k), robustness under input variations
 
 
-#### b. **OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments** (April 2024, Major Updates 2025)
-- **Links:**
++ b. OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments (April 2024, Major Updates 2025)
   - arXiv: https://arxiv.org/abs/2404.07972
   - Project: https://os-world.github.io/
   - HuggingFace: https://huggingface.co/spaces/xlanglab/OSWorld
-
-**why to read:**
-- **First real computer environment** benchmark (Ubuntu, Windows, macOS)
-- **369 tasks** across real web/desktop apps, file I/O, cross-app workflows
-- **Execution-based evaluation** with custom scripts per task
-- **State-of-the-art results (2025)**: OpenAI Operator 38%, best open-source ~24%
-- Reveals massive gap between current capabilities and human performance
-- **Industry Impact:** Became the standard for evaluating computer-use agents (Claude Computer Use, OpenAI Operator, etc.)
+  - First real computer environment benchmark (Ubuntu, Windows, macOS)
+  - 369 tasks across real web/desktop apps, file I/O, cross-app workflows
+  - Execution-based evaluation with custom scripts per task
+  - State-of-the-art results (2025): OpenAI Operator 38%, best open-source ~24%
+  - Reveals massive gap between current capabilities and human performance
+  - Industry Impact: Became the standard for evaluating computer-use agents (Claude Computer Use, OpenAI Operator, etc.)
 
 
-#### c. **WebArena: A Realistic Web Environment for Building Autonomous Agents** (July 2023, Extensive 2025 Extensions)
-- **Links:**
++ c. WebArena: A Realistic Web Environment for Building Autonomous Agents (July 2023, Extensive 2025 Extensions)
   - arXiv: https://arxiv.org/abs/2307.13854
   - Project: https://webarena.dev/
   - Extensions: WebChoreArena, ST-WebAgentBench
-- **Record performance**: IBM CUGA achieved 61.7% (vs 14% in 2023)
-- **812 templated tasks** across e-commerce, forums, code repositories, CMS
-- **Extensions**:
-  - WebChoreArena: 532 tedium-focused tasks (top models: 37.8%)
-  - ST-WebAgentBench: Safety/trust templates, policy compliance metrics
-- **Key insights**: Success driven by Planner-Executor-Memory architecture + specialized training data
+  - Record performance: IBM CUGA achieved 61.7% (vs 14% in 2023)
+  - 812 templated tasks across e-commerce, forums, code repositories, CMS
+  - Extensions:
+    - WebChoreArena: 532 tedium-focused tasks (top models: 37.8%)
+    - ST-WebAgentBench: Safety/trust templates, policy compliance metrics
+  - Key insights: Success driven by Planner-Executor-Memory architecture + specialized training data
 
 
-#### d. **AgentBench: Evaluating LLMs as Agents** (August 2023, Updated 2025)
-- **Venue:** ICLR 2024
-- **Links:**
++ d. AgentBench: Evaluating LLMs as Agents (August 2023, Updated 2025)
+  - Venue: ICLR 2024
   - arXiv: https://arxiv.org/abs/2308.03688
   - GitHub: https://github.com/THUDM/AgentBench
 
-**Comprehensive Coverage:**
-- **8 environments**: Code, game playing, web shopping, digital card games, lateral thinking, household tasks, web browsing, OS interaction
-- **Multi-dimensional evaluation**: Breadth across domains reveals agent weak spots
-- **Function-calling version** (2025): Integrated with AgentRL framework
-- **VisualAgentBench**: Extension for multimodal agents (5 environments, 17 LMMs tested)
-
+  Comprehensive Coverage:
+  - 8 environments: Code, game playing, web shopping, digital card games, lateral thinking, household tasks, web browsing, OS interaction
+  - Multi-dimensional evaluation: Breadth across domains reveals agent weak spots
+  - Function-calling version (2025): Integrated with AgentRL framework
+  - VisualAgentBench: Extension for multimodal agents (5 environments, 17 LMMs tested)
 
 ## PHASE 12: AGENT APPLICATIONS
 **Core Component:** Translating Agent Architectures into Real-World Systems
@@ -628,50 +619,47 @@ Focus on how agent capabilities are adapted to specific domains and product work
 
 
 ### 2025 HIGH-IMPACT PAPERS on a related topic:
-#### a. **SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?** (September 2025)
-- **Links:**
+
++ a. SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks? (September 2025)
   - arXiv: https://arxiv.org/abs/2509.16941
   - Leaderboard: https://scale.com/leaderboard/swe_bench_pro_public
-- **1,865 problems** from 41 actively maintained repositories
-- **Enterprise-level complexity**: Tasks requiring hours to days for professional engineers
-- **Multi-file modifications**: Substantial code changes across repositories
-- **Three datasets**: Public (11 repos), held-out (12 repos), commercial (18 proprietary repos)
-- **Contamination-resistant**: GPL-licensed and commercial codebases
+  - 1,865 problems from 41 actively maintained repositories
+  - Enterprise-level complexity: Tasks requiring hours to days for professional engineers
+  - Multi-file modifications: Substantial code changes across repositories
+  - Three datasets: Public (11 repos), held-out (12 repos), commercial (18 proprietary repos)
+  - Contamination-resistant: GPL-licensed and commercial codebases
 
 
-#### b. **From LLMs to LLM-based Agents for Software Engineering: A Survey** (August 2024, Updated 2025)
-- **Link:** https://arxiv.org/html/2408.02479v2
-
-- **Six key topics**: Requirement engineering, code generation, autonomous decision-making, software design, test generation, software maintenance
-
-
-#### c. **LLM-Powered AI Agent Systems and Their Applications in Industry** (May 2025)
-- **Link:** https://arxiv.org/html/2505.16120v1
++ b. From LLMs to LLM-based Agents for Software Engineering: A Survey (August 2024, Updated 2025)
+  - Link: https://arxiv.org/html/2408.02479v2
+  - Six key topics: Requirement engineering, code generation, autonomous decision-making, software design, test generation, software maintenance
 
 
++ c. LLM-Powered AI Agent Systems and Their Applications in Industry (May 2025)
+  - Link: https://arxiv.org/html/2505.16120v1
 
-#### d. **Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?** (November 2025)
+
++ d. Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly? (November 2025)
   - arXiv: https://arxiv.org/abs/2511.13646
   - GitHub: https://github.com/OpenAutoCoder/live-swe-agent
   - Leaderboard: https://live-swe-agent.github.io/
-- **First live software agent** that autonomously evolves itself on-the-fly during runtime
+  - First live software agent that autonomously evolves itself on-the-fly during runtime
 
-#### e. **Towards Scientific Intelligence: LLM-based Scientific Agents** (2025)
-- Roadmap for scientific discovery with LLM agents
-- Differentiation from general agents
-- Domain-specific challenges in scientific reasoning
++ e. Towards Scientific Intelligence: LLM-based Scientific Agents (2025)
+  - Roadmap for scientific discovery with LLM agents
+  - Differentiation from general agents
+  - Domain-specific challenges in scientific reasoning
 
-#### f. **A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools** (2025)
-- **Referenced in:** https://github.com/luo-junyu/Awesome-Agent-Papers
-- Comprehensive taxonomy of FMs in materials science
-- Reviews advances, resources, and future directions
-- Integration of agents in materials discovery workflows
++ f. A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools (2025)
+  - Referenced in: https://github.com/luo-junyu/Awesome-Agent-Papers
+  - Comprehensive taxonomy of FMs in materials science
+  - Reviews advances, resources, and future directions
+  - Integration of agents in materials discovery workflows
 
-#### g. **CitySim: Modeling Urban Behaviors with LLM-Driven Agents** (2025)
-- Urban simulation using recursive value-driven approach
-- Scalable agent-based modeling for city dynamics
-- Applications in urban planning and policy analysis
-
++ g. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
+  - Urban simulation using recursive value-driven approach
+  - Scalable agent-based modeling for city dynamics
+  - Applications in urban planning and policy analysis
 
 
 ---
@@ -688,23 +676,11 @@ Focus on how agent capabilities are adapted to specific domains and product work
 - Part 1 (Jan-June): https://magazine.sebastianraschka.com/p/llm-research-papers-2025-list-one
 - Part 2 (July-Dec): https://magazine.sebastianraschka.com/p/llm-research-papers-2025-part2
 
-### **Benchmarking Resources:**
-- OSWorld Leaderboard: https://os-world.github.io/ (Industry standard for computer-use evaluation)
-- WebArena Project: https://webarena.dev/ (Foundational for web agent development)
-- AgentBench GitHub: https://github.com/THUDM/AgentBench
-
-#### **Industry Adoption:**
-- **OpenAI Operator**: Uses OSWorld (58% WebArena, 38% OSWorld)
-- **Claude Computer Use**: Evaluated on OSWorld benchmarks
-- **Gemini 2.5 Pro**: 54.8% WebArena, 37.8% WebChoreArena
-- **IBM CUGA**: 61.7% WebArena (current record)
 
 #### Academic Resource: 
 - 1. UC Berkeley CS294/194-196 Large Language Model Agents- Fall24： [CS294/194-196 Large Language Model Agents -24](https://rdi.berkeley.edu/llm-agents/f24)
 - 2. UC Berkeley CS294/194-280 Advanced Large Language Model Agents- Spring 25: [CS294/194-196 Large Language Model Agents -25](https://rdi.berkeley.edu/adv-llm-agents/sp25)
 - 3. Many recent LLM agents workshop, e.g., ICLR LLM agent summary figure like follows: 
-
-![Course Framework Overview](public/overview.png)
 
 
 
@@ -747,12 +723,10 @@ Focus on how agent capabilities are adapted to specific domains and product work
 - Policy compliance metrics (ST-WebAgentBench)
 - Failure mode analysis (WABER benchmark)
 
-### **7. Application Domains & Real-World Deployment**
+### **7. Application Domains & Real-World Deployment** e.g., 
 - SWE-bench family: Verified (79.2%), Pro (45.8%), Multilingual, Multimodal
 - Med-PaLM 2: 85% on medical exams (human expert level)
-- Automated trading and risk assessment
-- Full lifecycle automation: EDA → feature engineering → modeling → deployment
-- 79% preference for AI-generated responses over human-written
+- Data science Full lifecycle automation: EDA → feature engineering → modeling → deployment
 
 
 
