@@ -121,103 +121,64 @@ team-x/
 + Example domains include like the following: 
 
 
-#### Software Engineering
++ **Software Engineering**
+  - The most mature domain with 79.2% benchmark success. Tools like GitHub Copilot and Claude Code have millions of users.
+  -  Project Ideas: Code review agents, documentation generators, test generation, refactoring assistants, debugging agents, multi-language code translators.
+  -  Evaluation: SWE-bench, HumanEval, MBPP
+  -  Challenges: Long-horizon planning, complex dependencies, multi-file consistency
 
-The most mature domain with 79.2% benchmark success. Tools like GitHub Copilot and Claude Code have millions of users.
++ **Customer Service**
+  - Widely deployed with user preference for AI responses over human-written ones.
+  - Project Ideas: Multi-turn conversation agents, ticket routing systems, sentiment-aware responders, cross-platform coordinators, proactive outreach agents.
+  - Evaluation: Resolution time, satisfaction metrics, escalation accuracy
+  - Challenges: Emotional intelligence, appropriate escalation, ambiguous requests
 
-Project Ideas: Code review agents, documentation generators, test generation, refactoring assistants, debugging agents, multi-language code translators.
++ **Healthcare**
+  - Med-PaLM 2 achieves expert-level performance on medical exams. Regulatory barriers limit deployment.
+  - Project Ideas: Medical literature summarizers, patient education agents, symptom triage systems, clinical note assistants, drug interaction checkers.
+  - Evaluation: MedQA, PubMedQA, clinical case datasets
+  - Challenges: Hallucination prevention, explainability, regulatory compliance
 
-Evaluation: SWE-bench, HumanEval, MBPP
++ **Finance**
+  - Deployed in risk-controlled environments for trading, fraud detection, and document analysis.
+  - Project Ideas: Financial document analyzers (10-K, 10-Q), fraud detection agents, market sentiment analyzers, compliance checkers, personal finance advisors.
+  - Evaluation: Financial accuracy metrics, backtesting, compliance tests
+  - Challenges: Audit trails, explainability requirements, market uncertainty
 
-Challenges: Long-horizon planning, complex dependencies, multi-file consistency
++ **Data Science**
+  - AutoML platforms demonstrate full lifecycle automation from exploration through deployment.
+  - Project Ideas: Automated EDA agents, feature engineering assistants, model selection agents, data quality auditors, pipeline debuggers, results interpreters.
+  - Evaluation: Kaggle competitions, domain benchmarks, reproducibility tests
+  - Challenges: Fairness and bias, domain-specific distributions, reproducibility
 
-#### Customer Service
++ **Legal**
+  - Emerging applications with trustworthiness and jurisdictional complexity as barriers.
+  - Project Ideas: Legal research agents, contract analyzers, document drafters, compliance monitors, case outcome predictors, legal Q&A systems.
+  - Evaluation: Legal accuracy assessments, expert review, jurisdiction tests
+  - Challenges: Trustworthiness verification, legal nuance, ethical governance
 
-Widely deployed with 79% user preference for AI responses over human-written ones.
++ **Manufacturing**
+  - Factory-specific pilots with natural language interfaces to complex systems.
+  - Project Ideas: Equipment troubleshooters, predictive maintenance schedulers, quality control assistants, process optimizers, safety compliance checkers.
+  - Evaluation: Domain expert validation, simulation testing, factory metrics
+  - Challenges: Safety-critical decisions, legacy system integration, domain expertise
 
-Project Ideas: Multi-turn conversation agents, ticket routing systems, sentiment-aware responders, cross-platform coordinators, proactive outreach agents.
++ **Materials Science**
+  - LitMOF curated over 118K structures and discovered thousands of unreported materials.
+  - Project Ideas: Literature mining agents, property predictors, synthesis pathway suggesters, database curators, experiment design agents.
+  - Evaluation: Scientific validation, expert review, reproducibility testing
+  - Challenges: Scientific accuracy, experimental uncertainty, physical validation
 
-Evaluation: Resolution time, satisfaction metrics, escalation accuracy
++ **Urban Planning**
+  - City-scale simulations enable policy analysis and behavioral modeling in academic settings.
+  - Project Ideas: Traffic optimizers, resource allocators, policy impact simulators, community feedback analyzers, emergency response coordinators.
+  - Evaluation: Simulation validation, historical comparison, expert assessment
+  - Challenges: Deployment scale, ethical considerations, behavioral model validation
 
-Challenges: Emotional intelligence, appropriate escalation, ambiguous requests
-
-
-#### Healthcare
-
-Med-PaLM 2 achieves 85% on medical exams, matching human experts. Regulatory barriers limit deployment.
-
-Project Ideas: Medical literature summarizers, patient education agents, symptom triage systems, clinical note assistants, drug interaction checkers.
-
-Evaluation: MedQA, PubMedQA, clinical case datasets
-
-Challenges: Hallucination prevention, explainability, regulatory compliance
-
-#### Finance
-
-Deployed in risk-controlled environments for trading, fraud detection, and document analysis.
-
-Project Ideas: Financial document analyzers (10-K, 10-Q), fraud detection agents, market sentiment analyzers, compliance checkers, personal finance advisors.
-
-Evaluation: Financial accuracy metrics, backtesting, compliance tests
-
-Challenges: Audit trails, explainability requirements, market uncertainty
-
-#### Data Science
-
-AutoML platforms demonstrate full lifecycle automation from exploration through deployment.
-
-Project Ideas: Automated EDA agents, feature engineering assistants, model selection agents, data quality auditors, pipeline debuggers, results interpreters.
-
-Evaluation: Kaggle competitions, domain benchmarks, reproducibility tests
-
-Challenges: Fairness and bias, domain-specific distributions, reproducibility
-
-
-#### Legal
-
-Emerging applications with trustworthiness and jurisdictional complexity as barriers.
-
-Project Ideas: Legal research agents, contract analyzers, document drafters, compliance monitors, case outcome predictors, legal Q&A systems.
-
-Evaluation: Legal accuracy assessments, expert review, jurisdiction tests
-
-Challenges: Trustworthiness verification, legal nuance, ethical governance
-
-#### Manufacturing
-
-Factory-specific pilots with natural language interfaces to complex systems.
-
-Project Ideas: Equipment troubleshooters, predictive maintenance schedulers, quality control assistants, process optimizers, safety compliance checkers.
-
-Evaluation: Domain expert validation, simulation testing, factory metrics
-
-Challenges: Safety-critical decisions, legacy system integration, domain expertise
-
-
-#### Materials Science
-
-LitMOF curated 118,464 structures and discovered 12,646 unreported materials.
-
-Project Ideas: Literature mining agents, property predictors, synthesis pathway suggesters, database curators, experiment design agents.
-
-Evaluation: Scientific validation, expert review, reproducibility testing
-
-Challenges: Scientific accuracy, experimental uncertainty, physical validation
-
-#### Urban Planning
-
-City-scale simulations enable policy analysis and behavioral modeling in academic settings.
-
-Project Ideas: Traffic optimizers, resource allocators, policy impact simulators, community feedback analyzers, emergency response coordinators.
-
-Evaluation: Simulation validation, historical comparison, expert assessment
-
-Challenges: Deployment scale, ethical considerations, behavioral model validation
-
----
 
 
 
+---
 
 <hr>
 

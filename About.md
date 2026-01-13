@@ -401,7 +401,7 @@ How agents break down complex tasks, form plans, and orchestrate multi-step work
 
 Here's the text with all bold formatting removed:
 
-```markdown
+
 + a. Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling (December 2025)
   - Link: https://arxiv.org/abs/2512.14474
 
@@ -423,7 +423,7 @@ Here's the text with all bold formatting removed:
   - Search strategies: Backtracking, parallel exploration, beam search (best: two-level beam search)
 
   Use Cases: Code translation, digital grid transformation rules
-```
+
 
 ---
 
