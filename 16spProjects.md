@@ -26,19 +26,23 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 + Required Deliverables for Your Project:
 
   1. **Proposal Talk**: A mini presentation to the instructors on your project idea. The presentation should explain WHY / WHAT / HOW on your project — intended to be a more conceptual, idea-based pitch. Please use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx) to help you pitch the idea.
+    - We will provide a template for drafting this proposal talk deck. 
 
   2. **Slide Deck + Presentation**: A slide deck summarizing your project and describing your results. Filling in the template slide pages will be enough (more is better!). The slide deck should include your YouTube video link and your codebase GitHub PR information. Use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx). Submit to Canvas.
+    - We will provide a template for drafting this presentation talk deck. 
 
   3. **Codebase**: A python Jupyter notebook (or codebase format that you prefer) to present the code, data visualization, and obtain results and analysis through step-by-step code cell runs. Submit via Pull Request to the course project GitHub: [https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects](https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects)
 
   4. **Code Demo Video**: A video uploaded to YouTube demonstrating your codebase in action, walking through key functionality and results. To minimize overhead time cost during presentations (switching, wrong setup, etc.), we expect you to record this demo video. Please practice the whole process a few times before recording. Share the YouTube link in your Canvas submission.
 
   5. **Project Report Writeup**: A detailed written report including introduction, background, related work, experimental design, results, and comparison to baselines.
+    - We will provide a template for drafting this report writeup. 
 
 
-+ One the project proposal and final presentations: 
++ One the project proposal and final presentation slide decks: 
   - Good slide deck and Great delivery of content at the demo session     
   - Clear definition of problem and importance
+  - Clear presentation of related work
   - Clear explanation of approach and code runs
   - Clear summary of results (and/or difficulties)
   - Well-organized, polished as a whole
@@ -47,6 +51,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 + On the project report: 
   - Here is the grading rubrics we will use to grade your final report 
   - Clear definition of problem and importance
+  - Clear presentation of related work
   - Clear explanation of approach
   - Clear summary of results (and/or difficulties)
   - Well-organized, polished as a whole
@@ -88,8 +93,8 @@ team-x/
           * Team ID and Members
           * Overview: A brief introduction to the project.
           * Usage: How to run the code to get core results.
-          * (Optional) Setup: Instructions for environment setup (if non-trivial).
-          * (Optional) Video: A link to your demo video with a brief description.
+          * Setup: Instructions for environment setup (if non-trivial).
+          * Video demo: A link to your demo video with a brief description.
 
       * You are also welcome to include additional files or documentation in the folder or README.md if they help people better understand your project and code.
 
@@ -199,7 +204,7 @@ team-x/
   - **11 (Deployment):** Understand production infrastructure and serving systems
 
 + Or Please select a project to deep dive one aspect of LLM agents like the following Cross-Domain Projects
-  -  Multi-Agent Coordination / Systems where specialized agents collaborate (literature review + data analysis + writing agents).
+  - Multi-Agent Coordination / Systems where specialized agents collaborate (literature review + data analysis + writing agents).
   - Human-AI Collaboration / Interfaces combining human expertise with agent capabilities, including handoff mechanisms.
   - Explainability Frameworks / Agents that explain reasoning in domain-appropriate ways for healthcare, finance, or legal contexts.
   - Error Detection and Recovery / Meta-agents monitoring other agents for mistakes and implementing corrections.

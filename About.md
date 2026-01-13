@@ -10,7 +10,7 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 
 ### Prerequisite:
 
-+ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate students with interests in generative deep learning models, foundations, applications, and related LLM Agents topics. 
++ Required courses as prerequisites: Machine Learning; Deep learning; Optional on RL. The seminar is for research-focused graduate students with interests in generative deep learning models, foundations, applications, and related LLM Agents topics. 
 
 
 ### General Description and Disclaimer: 
@@ -67,8 +67,8 @@ Student teams are expected to:
 + Sit-in: No. This course is for registered students only.
 
 + Final grades will be based on.
-  - 20% for the quality of your seminar presentations; 
-  - 10% for the course attendance 
+  - 15% for the course attendance 
+  - 15% for the quality of your seminar presentations; 
   - 35% for the quality of your first course projects; 
   - 35% for the quality of your second course projects; 
 
