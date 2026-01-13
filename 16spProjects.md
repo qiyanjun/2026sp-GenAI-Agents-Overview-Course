@@ -7,6 +7,8 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 ### Previous offering's student team projects: 
 - [25 Spring course's students project github HERE](https://github.com/Qdata4Capstone/uva-25-spring-genai-students-projects/tree/main/students-projects-code)
 
+- Related student projects from Students who took 2025 Fall Undergraduate Machine Learning 
+[uva-machine-learning-25f-projects](https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects)
 
 ### Each student team is expected to finish two different course projects. 
 + Each team need to deliver two different course projects
