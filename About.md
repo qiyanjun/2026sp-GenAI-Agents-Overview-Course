@@ -68,8 +68,8 @@ Student teams (size 3) in the seminar are expected to:
 + Sit-in: No. This course is for registered students only.
 
 + Final grades will be based on.
-  - 15% for the quality of your seminar presentations; 
-  - 15% for the course attendance 
+  - 20% for the quality of your seminar presentations; 
+  - 10% for the course attendance 
   - 35% for the quality of your first course projects; 
   - 35% for the quality of your second course projects; 
 
@@ -117,17 +117,18 @@ Memory Systems, Action & Tools, Planning & Orchestration, Multi-Agent Collaborat
 
 ## Learning Objectives by Phase (Roughly per week one phase to cover this Semester)
 
-**Phase 1 (Foundations & Overview):** Grasp the fundamental concepts and architecture of LLM agents
-**Phase 2 (Brain & Reasoning): ** Understand the core LLM capabilities that enable agentic behavior
-**Phase 3 (Perception):** Learn how agents process multimodal and domain-specific inputs
-**Phase 4 (Memory):** Master memory architectures and knowledge management systems
-**Phase 5 (Action & Tools):** Develop skills in tool integration and agent-computer interfaces
-**Phase 6 (World Models):** Explore how agents build internal representations of their environment
-**Phase 7 (Planning):** Study planning algorithms and task orchestration strategies
-**Phase 8 (Multi-Agent):** Understand collaborative agent systems and communication protocols
-**Phase 9 (Safety):** Address ethical, safety, and alignment challenges in agent deployment
-**Phase 10 (Training):** Learn optimization and customization techniques
-**Phase 11 (Deployment):** Understand production infrastructure and serving systems
+- **Phase 1 (Foundations & Overview):** Grasp the fundamental concepts and architecture of LLM agents
+- **Phase 2 (Brain & Reasoning): ** Understand the core LLM capabilities that enable agentic behavior
+- **Phase 3 (Perception):** Learn how agents process multimodal and domain-specific inputs
+- **Phase 4 (Memory):** Master memory architectures and knowledge management systems
+- **Phase 5 (Action & Tools):** Develop skills in tool integration and agent-computer interfaces
+- **Phase 6 (World Models):** Explore how agents build internal representations of their environment
+- **Phase 7 (Planning):** Study planning algorithms and task orchestration strategies
+- **Phase 8 (Multi-Agent):** Understand collaborative agent systems and communication protocols
+- **Phase 9 (Safety):** Address ethical, safety, and alignment challenges in agent deployment
+- **Phase 10 (Training):** Learn optimization and customization techniques
+- **Phase 11 (Deployment):** Understand production infrastructure and serving systems
+- **Phase 12 (Applications):** Translate agent capabilities into real-world domains and products; study case studies, human-in-the-loop workflows, and impact measurement
 
 
 ---
@@ -617,43 +618,58 @@ Understanding the infrastructure and systems for deploying agents in production.
 - **VisualAgentBench**: Extension for multimodal agents (5 environments, 17 LMMs tested)
 
 
----
+## PHASE 12: AGENT APPLICATIONS
+**Core Component:** Translating Agent Architectures into Real-World Systems
 
-## CROSS-CUTTING THEMES IN 2025
+Focus on how agent capabilities are adapted to specific domains and product workflows, including user experience, operational constraints, and measurable impact.
 
-### **1. Reasoning Revolution**
-- Pure RL without supervised demonstrations (DeepSeek-R1, Kimi k1.5)
-- Emergent reasoning patterns: self-reflection, verification, strategy adaptation
-- Test-time compute scaling
-- Published in Nature - mainstream scientific recognition
+**Key Concepts:** Domain adaptation, workflow integration, human-in-the-loop design, reliability in production, evaluation in context, compliance and governance, and case studies (software, education, healthcare, finance, science, and robotics)
 
-### **2. Quantitative Scaling Laws**
-- First rigorous study of multi-agent coordination (Towards a Science of Scaling)
-- Capability saturation thresholds identified
-- Task-dependent optimal architectures
 
-### **3. Real-World Evaluation**
-- OSWorld: First real computer environment (369 tasks)
-- WebArena: 61.7% performance reached (from 14% in 2023)
-- Enterprise-specific metrics: reliability, consistency, compliance
+### 2025 HIGH-IMPACT PAPERS on a related topic:
+#### a. **SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?** (September 2025)
+- **Links:**
+  - arXiv: https://arxiv.org/abs/2509.16941
+  - Leaderboard: https://scale.com/leaderboard/swe_bench_pro_public
+- **1,865 problems** from 41 actively maintained repositories
+- **Enterprise-level complexity**: Tasks requiring hours to days for professional engineers
+- **Multi-file modifications**: Substantial code changes across repositories
+- **Three datasets**: Public (11 repos), held-out (12 repos), commercial (18 proprietary repos)
+- **Contamination-resistant**: GPL-licensed and commercial codebases
 
-### **4. Memory Architecture Innovation**
-- Hierarchical memory systems
-- Self-organizing memory (EverMemOS)
-- Multi-agent memory coordination (G-Memory, MIRIX)
-- Distinction from RAG and context engineering
 
-### **5. Domain Specialization**
-- Legal: Trustworthiness, explainability, cross-jurisdictional
-- Materials science: Self-correcting databases
-- Video understanding: Multi-agent coordination for long-form content
-- Data science: End-to-end automation
+#### b. **From LLMs to LLM-based Agents for Software Engineering: A Survey** (August 2024, Updated 2025)
+- **Link:** https://arxiv.org/html/2408.02479v2
 
-### **6. Safety & Reliability**
-- Game theory for understanding strategic behavior
-- Cross-linguistic behavioral divergence
-- Policy compliance metrics (ST-WebAgentBench)
-- Failure mode analysis (WABER benchmark)
+- **Six key topics**: Requirement engineering, code generation, autonomous decision-making, software design, test generation, software maintenance
+
+
+#### c. **LLM-Powered AI Agent Systems and Their Applications in Industry** (May 2025)
+- **Link:** https://arxiv.org/html/2505.16120v1
+
+
+
+#### d. **Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?** (November 2025)
+  - arXiv: https://arxiv.org/abs/2511.13646
+  - GitHub: https://github.com/OpenAutoCoder/live-swe-agent
+  - Leaderboard: https://live-swe-agent.github.io/
+- **First live software agent** that autonomously evolves itself on-the-fly during runtime
+
+#### e. **Towards Scientific Intelligence: LLM-based Scientific Agents** (2025)
+- Roadmap for scientific discovery with LLM agents
+- Differentiation from general agents
+- Domain-specific challenges in scientific reasoning
+
+#### f. **A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools** (2025)
+- **Referenced in:** https://github.com/luo-junyu/Awesome-Agent-Papers
+- Comprehensive taxonomy of FMs in materials science
+- Reviews advances, resources, and future directions
+- Integration of agents in materials discovery workflows
+
+#### g. **CitySim: Modeling Urban Behaviors with LLM-Driven Agents** (2025)
+- Urban simulation using recursive value-driven approach
+- Scalable agent-based modeling for city dynamics
+- Applications in urban planning and policy analysis
 
 
 
@@ -681,6 +697,10 @@ Understanding the infrastructure and systems for deploying agents in production.
 - **Claude Computer Use**: Evaluated on OSWorld benchmarks
 - **Gemini 2.5 Pro**: 54.8% WebArena, 37.8% WebChoreArena
 - **IBM CUGA**: 61.7% WebArena (current record)
+
+#### Academic Resource: 
+- 1. UC Berkeley CS294/194-196 Large Language Model Agents- Fall24： [CS294/194-196 Large Language Model Agents -24](https://rdi.berkeley.edu/llm-agents/f24)
+- 2. UC Berkeley CS294/194-280 Advanced Large Language Model Agents- Spring 25: [CS294/194-196 Large Language Model Agents -25](https://rdi.berkeley.edu/adv-llm-agents/sp25)
 
 
 
@@ -718,3 +738,88 @@ As your professor and as a person, know that I care about you and your well-bein
 
 ### This syllabus
 This syllabus is to be considered a reference document that can and will be adjusted through the course of the semester to address changing needs. This syllabus can be changed at any time without notification. It is up to the student to monitor this page for any changes. Final authority on any decision in this course rests with the professor, not with this document.
+
+---
+
+## CROSS-CUTTING THEMES of LLM Agents IN 2025
+
+### **1. Reasoning Revolution**
+- Pure RL without supervised demonstrations (DeepSeek-R1, Kimi k1.5)
+- Emergent reasoning patterns: self-reflection, verification, strategy adaptation
+- Test-time compute scaling
+- Published in Nature - mainstream scientific recognition
+
+### **2. Quantitative Scaling Laws**
+- First rigorous study of multi-agent coordination (Towards a Science of Scaling)
+- Capability saturation thresholds identified
+- Task-dependent optimal architectures
+
+### **3. Real-World Evaluation**
+- OSWorld: First real computer environment (369 tasks)
+- WebArena: 61.7% performance reached (from 14% in 2023)
+- Enterprise-specific metrics: reliability, consistency, compliance
+
+### **4. Memory Architecture Innovation**
+- Hierarchical memory systems
+- Self-organizing memory (EverMemOS)
+- Multi-agent memory coordination (G-Memory, MIRIX)
+- Distinction from RAG and context engineering
+
+### **5. Domain Specialization**
+- Legal: Trustworthiness, explainability, cross-jurisdictional
+- Materials science: Self-correcting databases
+- Video understanding: Multi-agent coordination for long-form content
+- Data science: End-to-end automation
+
+### **6. Safety & Reliability**
+- Game theory for understanding strategic behavior
+- Cross-linguistic behavioral divergence
+- Policy compliance metrics (ST-WebAgentBench)
+- Failure mode analysis (WABER benchmark)
+
+### **7. Application Domains & Real-World Deployment**
+**Software Engineering (Most Mature):**
+- SWE-bench family: Verified (79.2%), Pro (45.8%), Multilingual, Multimodal
+
+**Healthcare:**
+- Med-PaLM 2: 85% on medical exams (human expert level)
+- Patient monitoring, diagnostic assistance, treatment recommendations
+- Radiology report generation with vision-language models
+- Multi-agent clinical simulations for realistic interactions
+
+**Finance:**
+- Automated trading and risk assessment
+- Fraud detection and anomaly identification
+- Real-time market analysis and decision-making
+- Financial document processing (10-K, 10-Q analysis)
+
+**Data Science:**
+- Full lifecycle automation: EDA → feature engineering → modeling → deployment
+- AutoML pipelines with agent orchestration
+- Domain-adaptive solutions for healthcare, finance, climate science
+- High-stakes requirements: fairness, explainability, reproducibility
+
+**Customer Service:**
+- Multi-step ticket resolution with context maintenance
+- 79% preference for AI-generated responses over human-written
+- Intelligent escalation and cross-channel coordination
+
+**Manufacturing:**
+- Natural language interfaces to factory systems
+- Equipment troubleshooting and predictive maintenance
+- Quality analysis and process optimization
+
+**Legal & Compliance:**
+- Legal research and document generation
+- Cross-jurisdictional knowledge integration
+- Trustworthiness and explainability requirements
+
+**Materials Science:**
+- Self-correcting scientific databases (LitMOF: 118,464 structures)
+- Literature validation and data curation
+- Discovery of 12,646 previously unreported materials
+
+**Urban Planning:**
+- City-scale agent simulations for policy analysis
+- Scalable behavioral modeling
+- Infrastructure and resource optimization
