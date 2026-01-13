@@ -14,6 +14,9 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
   - Course Project A: Build agents to benefit domains like healthcare, finance or .....
   - Course Project B: A deep dive project on a component of LLM agents or property of LLM agents ... 
 
++ We will a sheet of project A ideas for your team to select by second week, Plese select your team session in the signup sheets ! 
++ We will a sheet of project B ideas for your team to select by fourth week, Plese select your team session in the signup sheets ! 
+
 
 
 ### Details on Course Project required artifacts: 
@@ -101,16 +104,12 @@ team-x/
 
 <hr> 
 
-#### Plese select your team session in the signup sheets ! 
 
 #### Looking forward to your demos and artifacts! 
 
 
-# LLM Agent Applications: Student Project Guide
 
 ---
-
-
 
 
 
