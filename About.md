@@ -32,14 +32,14 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 
 ### Course Expectations
 
-Student teams (size 3) in the seminar are expected to:
+Student teams are expected to:
 
 + Present One SOTA Topics. For each topic, a slide deck and an in-class presentation is expected from a team: 
   - Example of Slide deck: [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits//Lectures/W3-LLMEvaluation-Team5.pdf)
   - We recommend students to use 365 powerpoint [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=713ff34fdb3ac744f032f1f51d961937#login) to support their co-editing of presentation slide decks. 
 
 + Finish Two course projects  
-  - More details on final project, please check out the Project Page via sidebar! 
+  - More details on project, please check out the Project Guide Page via sidebar! 
 
 + Participate actively in class meets. This means being prepared to contribute by presenting assigned papers, and working activerly on your course projects.
 
@@ -119,7 +119,7 @@ Memory Systems, Action & Tools, Planning & Orchestration, Multi-Agent Collaborat
 ## Learning Objectives by Phase (Roughly per week one phase to cover this Semester)
 
 - **Phase 1 (Foundations & Overview):** Grasp the fundamental concepts and architecture of LLM agents
-- **Phase 2 (Brain & Reasoning): ** Understand the core LLM capabilities that enable agentic behavior
+- **Phase 2 (Brain & Reasoning):** Understand the core LLM capabilities that enable agentic behavior
 - **Phase 3 (Perception):** Learn how agents process multimodal and domain-specific inputs
 - **Phase 4 (Memory):** Master memory architectures and knowledge management systems
 - **Phase 5 (Action & Tools):** Develop skills in tool integration and agent-computer interfaces
