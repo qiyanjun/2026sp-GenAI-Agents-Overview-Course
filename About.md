@@ -172,6 +172,31 @@ Understanding the foundation model that serves as the "brain" of agentic systems
   - Agent societies analysis: behavior, personality, social phenomena
 
 
++ c. SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks? (September 2025)
+  - arXiv: https://arxiv.org/abs/2509.16941
+  - Leaderboard: https://scale.com/leaderboard/swe_bench_pro_public
+  - 1,865 problems from 41 actively maintained repositories
+  - Enterprise-level complexity: Tasks requiring hours to days for professional engineers
+  - Multi-file modifications: Substantial code changes across repositories
+  - Three datasets: Public (11 repos), held-out (12 repos), commercial (18 proprietary repos)
+  - Contamination-resistant: GPL-licensed and commercial codebases
+
+
++ d. From LLMs to LLM-based Agents for Software Engineering: A Survey (August 2024, Updated 2025)
+  - Link: https://arxiv.org/html/2408.02479v2
+  - Six key topics: Requirement engineering, code generation, autonomous decision-making, software design, test generation, software maintenance
+
+
++ e. LLM-Powered AI Agent Systems and Their Applications in Industry (May 2025)
+  - Link: https://arxiv.org/html/2505.16120v1
+
++ f. A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools (2025)
+  - Referenced in: https://github.com/luo-junyu/Awesome-Agent-Papers
+  - Comprehensive taxonomy of FMs in materials science
+  - Reviews advances, resources, and future directions
+  - Integration of agents in materials discovery workflows
+
+
 ---
 
 ## PHASE 2: REASONING & COGNITION 
@@ -234,36 +259,7 @@ Understanding how agents perceive and process different types of information fro
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-+ a. From Single-Agent to Multi-Agent: Legal Agents Review (November 2025)
-  - Venue: AI Agent Journal 2025
-  - Link: https://www.oaepublish.com/articles/aiagent.2025.06
-  - Core tasks: Legal information retrieval, QA, judgment prediction, text generation
-  - Evaluation benchmarks: LAiW (Chinese practical), UCL-Bench (user-centric), JuDGE (judgment documents)
-  - Single-agent challenges: Trustworthiness, explainability, factuality
-  - Multi-agent systems: Collaborative reasoning, specialized roles (researcher, analyst, writer)
-  - Future directions: Cross-jurisdictional interoperability via legal knowledge graphs, ethical governance
 
-
-+ b. LitMOF: LLM-Driven Multi-Agent Curation of Materials Database (December 2025)
-  - Link: https://arxiv.org/abs/2512.01693
-  - Problem: Nearly half of Metal-Organic Framework (MOF) database entries contain structural errors
-  - Solution: Multi-agent framework validating crystallographic information from literature
-  - Results:
-    - Curated LitMOF-DB: 118,464 computation-ready structures
-    - Corrected 69% (6,161 MOFs) of invalid entries in CoRE MOF database
-    - Discovered 12,646 experimentally reported MOFs absent from existing resources
-  - Paradigm: Self-correcting scientific databases through LLM-driven curation
-
-
-+ c. LongVideoAgent: Multi-Agent Reasoning with Long Videos (December 2025)
-  - Link: https://arxiv.org/abs/2512.20618
-  Architecture:
-  - Master agent: Coordinates with step limit, trained via RL
-  - Grounding agent: Localizes question-relevant segments
-  - Vision agent: Extracts targeted textual observations from video
-  - Training: Reinforcement learning to encourage concise, correct, efficient cooperation
-  - Benchmark: LongTVQA and LongTVQA+ (episode-level datasets from TVQA/TVQA+)
-  - Results: Significantly outperforms non-agent baselines on hour-long video reasoning
 
 ---
 
@@ -322,10 +318,6 @@ Understanding how agents execute actions through external tools, APIs, and inter
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
 
-+ a. AgentGym-RL: Training Agents for Long-Horizon Decision Making (September 2025)
-  - https://github.com/WooooDyy/LLM-Agent-Paper-List
-  - RL version of AgentGym for learning from interactive environments
-  - Interactive frontend for trajectory visualization, multi-turn RL
 
 
 ---
@@ -352,31 +344,22 @@ World models enable agents to build internal representations of their environmen
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
 
-+ a. Deep Research: A Survey of Autonomous Research Agents (August 2025)
-  - Link: https://arxiv.org/html/2508.12752v1
++ a. AgentGym-RL: Training Agents for Long-Horizon Decision Making (September 2025)
+  - https://github.com/WooooDyy/LLM-Agent-Paper-List
+  - RL version of AgentGym for learning from interactive environments
+  - Interactive frontend for trajectory visualization, multi-turn RL
 
-  Research Agent Architecture:
-  - Planning strategies: World model simulation, modular design search, human-like reasoning synthesis, self-refinement
-  - World models: LLMs as implicit world models, graph-based structured knowledge
-  - Meta-learning: MPO (Meta-Plan Optimization) - adaptive tuning across environments
-  - Architecture search: AgentSquare for automatic pipeline assembly
++ b. Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling (December 2025)
+  - Link: https://arxiv.org/abs/2512.14474
 
-  DeepResearchBench: Evaluates report fidelity, citation accuracy, comprehensive coverage
+  Two-Phase Paradigm:
+  1. Modeling Phase: LLM constructs explicit model (entities, state variables, actions, constraints)
+  2. Solution Phase: Generate plan based on explicit model
+  - Reduces constraint violations across medical scheduling, route planning, resource allocation, logic puzzles
+  - Outperforms Chain-of-Thought and ReAct
+  - Critical finding: Many planning failures stem from representational deficiencies, not reasoning limitations
 
-  Key Challenge: Plan brittleness, lack of robustness to ambiguous queries, evaluation coarseness
-
-+ b. Towards Scientific Intelligence: LLM-based Scientific Agents (2025)
-  - Roadmap for scientific discovery with LLM agents
-  - Differentiation from general agents
-
-+ c. A Survey of Data Science Agents (Published October 2025)
-  - Venue: Journal of the American Statistical Association
-  - Link: https://www.tandfonline.com/doi/full/10.1080/00031305.2025.2561140
-  - Comprehensive review of LLM agents for data analysis, visualization, ML workflows
-
-+ d. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
-  - Urban simulation using recursive value-driven approach
-  - Scalable agent-based modeling for city dynamics
+  Domains Tested: Medical scheduling, route planning, resource allocation, logic puzzles, procedural synthesis
 
 
 ---
@@ -399,23 +382,7 @@ How agents break down complex tasks, form plans, and orchestrate multi-step work
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
 
-Here's the text with all bold formatting removed:
-
-
-+ a. Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling (December 2025)
-  - Link: https://arxiv.org/abs/2512.14474
-
-  Two-Phase Paradigm:
-  1. Modeling Phase: LLM constructs explicit model (entities, state variables, actions, constraints)
-  2. Solution Phase: Generate plan based on explicit model
-  - Reduces constraint violations across medical scheduling, route planning, resource allocation, logic puzzles
-  - Outperforms Chain-of-Thought and ReAct
-  - Critical finding: Many planning failures stem from representational deficiencies, not reasoning limitations
-
-  Domains Tested: Medical scheduling, route planning, resource allocation, logic puzzles, procedural synthesis
-
-
-+ b. EnCompass: Separating Search from Agent Workflows (December 2025)
++ a. EnCompass: Separating Search from Agent Workflows (December 2025)
   - arXiv: https://arxiv.org/abs/2512.03571
   - Press: https://techxplore.com/news/2025-12-ai-agents-results-large-language.html
   Key Innovation: Separates search strategy from workflow code
@@ -476,7 +443,7 @@ Understanding how multiple agents work together to solve complex problems.
 
 ---
 
-## PHASE 9: RISK, SAFETY, ALIGNMENT & GUARDRAILS 
+## PHASE 9: RISK, SAFETY, Evaluation & GUARDRAILS 
 **Core Component:** Agent Safety Systems - Ensuring Reliable, Ethical, and Secure Operation
 
 Addressing safety, alignment, and ethical considerations in agent deployment.
@@ -497,6 +464,53 @@ Addressing safety, alignment, and ethical considerations in agent deployment.
 | LLM Multimodal Harm Responses | W7-multimodal-LLMharm | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
 | More FM Risk / Extra - Agent Guardrailing | W8-Team3-P3-moreRisk.pdf | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
 
+
+
+- OSWorld Leaderboard: https://os-world.github.io/ (Industry standard for computer-use evaluation)
+- WebArena Project: https://webarena.dev/ (Foundational for web agent development)
+- AgentBench GitHub: https://github.com/THUDM/AgentBench
+
++ a. Evaluation and Benchmarking of LLM Agents: A Survey (July 2025)
+  - Link: https://arxiv.org/html/2507.21504v1
+  - Comprehensive taxonomy: Evaluation objectives (behavior, capabilities, reliability, safety) × evaluation process (interaction modes, datasets, metrics, tooling, environments)
+  - Enterprise focus: Role-based access control, reliability guarantees, long-term interaction, compliance
+  - Novel metrics: Consistency (pass@k vs all-k), robustness under input variations
+
+
++ b. OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments (April 2024, Major Updates 2025)
+  - arXiv: https://arxiv.org/abs/2404.07972
+  - Project: https://os-world.github.io/
+  - HuggingFace: https://huggingface.co/spaces/xlanglab/OSWorld
+  - First real computer environment benchmark (Ubuntu, Windows, macOS)
+  - 369 tasks across real web/desktop apps, file I/O, cross-app workflows
+  - Execution-based evaluation with custom scripts per task
+  - State-of-the-art results (2025): OpenAI Operator 38%, best open-source ~24%
+  - Reveals massive gap between current capabilities and human performance
+  - Industry Impact: Became the standard for evaluating computer-use agents (Claude Computer Use, OpenAI Operator, etc.)
+
+
++ c. WebArena: A Realistic Web Environment for Building Autonomous Agents (July 2023, Extensive 2025 Extensions)
+  - arXiv: https://arxiv.org/abs/2307.13854
+  - Project: https://webarena.dev/
+  - Extensions: WebChoreArena, ST-WebAgentBench
+  - Record performance: IBM CUGA achieved 61.7% (vs 14% in 2023)
+  - 812 templated tasks across e-commerce, forums, code repositories, CMS
+  - Extensions:
+    - WebChoreArena: 532 tedium-focused tasks (top models: 37.8%)
+    - ST-WebAgentBench: Safety/trust templates, policy compliance metrics
+  - Key insights: Success driven by Planner-Executor-Memory architecture + specialized training data
+
+
++ d. AgentBench: Evaluating LLMs as Agents (August 2023, Updated 2025)
+  - Venue: ICLR 2024
+  - arXiv: https://arxiv.org/abs/2308.03688
+  - GitHub: https://github.com/THUDM/AgentBench
+
+  Comprehensive Coverage:
+  - 8 environments: Code, game playing, web shopping, digital card games, lateral thinking, household tasks, web browsing, OS interaction
+  - Multi-dimensional evaluation: Breadth across domains reveals agent weak spots
+  - Function-calling version (2025): Integrated with AgentRL framework
+  - VisualAgentBench: Extension for multimodal agents (5 environments, 17 LMMs tested)
 
 
 
@@ -564,51 +578,6 @@ Understanding the infrastructure and systems for deploying agents in production.
 
 ### 2025 HIGH-IMPACT PAPERS on a related topic: benchmaarking after deployed 
 
-- OSWorld Leaderboard: https://os-world.github.io/ (Industry standard for computer-use evaluation)
-- WebArena Project: https://webarena.dev/ (Foundational for web agent development)
-- AgentBench GitHub: https://github.com/THUDM/AgentBench
-
-+ a. Evaluation and Benchmarking of LLM Agents: A Survey (July 2025)
-  - Link: https://arxiv.org/html/2507.21504v1
-  - Comprehensive taxonomy: Evaluation objectives (behavior, capabilities, reliability, safety) × evaluation process (interaction modes, datasets, metrics, tooling, environments)
-  - Enterprise focus: Role-based access control, reliability guarantees, long-term interaction, compliance
-  - Novel metrics: Consistency (pass@k vs all-k), robustness under input variations
-
-
-+ b. OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments (April 2024, Major Updates 2025)
-  - arXiv: https://arxiv.org/abs/2404.07972
-  - Project: https://os-world.github.io/
-  - HuggingFace: https://huggingface.co/spaces/xlanglab/OSWorld
-  - First real computer environment benchmark (Ubuntu, Windows, macOS)
-  - 369 tasks across real web/desktop apps, file I/O, cross-app workflows
-  - Execution-based evaluation with custom scripts per task
-  - State-of-the-art results (2025): OpenAI Operator 38%, best open-source ~24%
-  - Reveals massive gap between current capabilities and human performance
-  - Industry Impact: Became the standard for evaluating computer-use agents (Claude Computer Use, OpenAI Operator, etc.)
-
-
-+ c. WebArena: A Realistic Web Environment for Building Autonomous Agents (July 2023, Extensive 2025 Extensions)
-  - arXiv: https://arxiv.org/abs/2307.13854
-  - Project: https://webarena.dev/
-  - Extensions: WebChoreArena, ST-WebAgentBench
-  - Record performance: IBM CUGA achieved 61.7% (vs 14% in 2023)
-  - 812 templated tasks across e-commerce, forums, code repositories, CMS
-  - Extensions:
-    - WebChoreArena: 532 tedium-focused tasks (top models: 37.8%)
-    - ST-WebAgentBench: Safety/trust templates, policy compliance metrics
-  - Key insights: Success driven by Planner-Executor-Memory architecture + specialized training data
-
-
-+ d. AgentBench: Evaluating LLMs as Agents (August 2023, Updated 2025)
-  - Venue: ICLR 2024
-  - arXiv: https://arxiv.org/abs/2308.03688
-  - GitHub: https://github.com/THUDM/AgentBench
-
-  Comprehensive Coverage:
-  - 8 environments: Code, game playing, web shopping, digital card games, lateral thinking, household tasks, web browsing, OS interaction
-  - Multi-dimensional evaluation: Breadth across domains reveals agent weak spots
-  - Function-calling version (2025): Integrated with AgentRL framework
-  - VisualAgentBench: Extension for multimodal agents (5 environments, 17 LMMs tested)
 
 ## PHASE 12: AGENT APPLICATIONS
 **Core Component:** Translating Agent Architectures into Real-World Systems
@@ -620,43 +589,64 @@ Focus on how agent capabilities are adapted to specific domains and product work
 
 ### 2025 HIGH-IMPACT PAPERS on a related topic:
 
-+ a. SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks? (September 2025)
-  - arXiv: https://arxiv.org/abs/2509.16941
-  - Leaderboard: https://scale.com/leaderboard/swe_bench_pro_public
-  - 1,865 problems from 41 actively maintained repositories
-  - Enterprise-level complexity: Tasks requiring hours to days for professional engineers
-  - Multi-file modifications: Substantial code changes across repositories
-  - Three datasets: Public (11 repos), held-out (12 repos), commercial (18 proprietary repos)
-  - Contamination-resistant: GPL-licensed and commercial codebases
 
++ a. Deep Research: A Survey of Autonomous Research Agents (August 2025)
+  - Link: https://arxiv.org/html/2508.12752v1
 
-+ b. From LLMs to LLM-based Agents for Software Engineering: A Survey (August 2024, Updated 2025)
-  - Link: https://arxiv.org/html/2408.02479v2
-  - Six key topics: Requirement engineering, code generation, autonomous decision-making, software design, test generation, software maintenance
+  Research Agent Architecture:
+  - Planning strategies: World model simulation, modular design search, human-like reasoning synthesis, self-refinement
+  - World models: LLMs as implicit world models, graph-based structured knowledge
+  - Meta-learning: MPO (Meta-Plan Optimization) - adaptive tuning across environments
+  - Architecture search: AgentSquare for automatic pipeline assembly
 
+  DeepResearchBench: Evaluates report fidelity, citation accuracy, comprehensive coverage
 
-+ c. LLM-Powered AI Agent Systems and Their Applications in Industry (May 2025)
-  - Link: https://arxiv.org/html/2505.16120v1
+  Key Challenge: Plan brittleness, lack of robustness to ambiguous queries, evaluation coarseness
 
-
-+ d. Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly? (November 2025)
-  - arXiv: https://arxiv.org/abs/2511.13646
-  - GitHub: https://github.com/OpenAutoCoder/live-swe-agent
-  - Leaderboard: https://live-swe-agent.github.io/
-  - First live software agent that autonomously evolves itself on-the-fly during runtime
-
-+ e. Towards Scientific Intelligence: LLM-based Scientific Agents (2025)
++ b. Towards Scientific Intelligence: LLM-based Scientific Agents (2025)
   - Roadmap for scientific discovery with LLM agents
-  - Differentiation from general agents
-  - Domain-specific challenges in scientific reasoning
 
-+ f. A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools (2025)
-  - Referenced in: https://github.com/luo-junyu/Awesome-Agent-Papers
-  - Comprehensive taxonomy of FMs in materials science
-  - Reviews advances, resources, and future directions
-  - Integration of agents in materials discovery workflows
++ c. A Survey of Data Science Agents (Published October 2025)
+  - Venue: Journal of the American Statistical Association
+  - Link: https://www.tandfonline.com/doi/full/10.1080/00031305.2025.2561140
+  - Comprehensive review of LLM agents for data analysis, visualization, ML workflows
 
-+ g. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
++ d. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
+  - Urban simulation using recursive value-driven approach
+  - Scalable agent-based modeling for city dynamics
+
++ e. From Single-Agent to Multi-Agent: Legal Agents Review (November 2025)
+  - Venue: AI Agent Journal 2025
+  - Link: https://www.oaepublish.com/articles/aiagent.2025.06
+  - Core tasks: Legal information retrieval, QA, judgment prediction, text generation
+  - Evaluation benchmarks: LAiW (Chinese practical), UCL-Bench (user-centric), JuDGE (judgment documents)
+  - Single-agent challenges: Trustworthiness, explainability, factuality
+  - Multi-agent systems: Collaborative reasoning, specialized roles (researcher, analyst, writer)
+  - Future directions: Cross-jurisdictional interoperability via legal knowledge graphs, ethical governance
+
+
++ f. LitMOF: LLM-Driven Multi-Agent Curation of Materials Database (December 2025)
+  - Link: https://arxiv.org/abs/2512.01693
+  - Problem: Nearly half of Metal-Organic Framework (MOF) database entries contain structural errors
+  - Solution: Multi-agent framework validating crystallographic information from literature
+  - Results:
+    - Curated LitMOF-DB: 118,464 computation-ready structures
+    - Corrected 69% (6,161 MOFs) of invalid entries in CoRE MOF database
+    - Discovered 12,646 experimentally reported MOFs absent from existing resources
+  - Paradigm: Self-correcting scientific databases through LLM-driven curation
+
+
++ g. LongVideoAgent: Multi-Agent Reasoning with Long Videos (December 2025)
+  - Link: https://arxiv.org/abs/2512.20618
+  Architecture:
+  - Master agent: Coordinates with step limit, trained via RL
+  - Grounding agent: Localizes question-relevant segments
+  - Vision agent: Extracts targeted textual observations from video
+  - Training: Reinforcement learning to encourage concise, correct, efficient cooperation
+  - Benchmark: LongTVQA and LongTVQA+ (episode-level datasets from TVQA/TVQA+)
+  - Results: Significantly outperforms non-agent baselines on hour-long video reasoning
+
++ h. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
   - Urban simulation using recursive value-driven approach
   - Scalable agent-based modeling for city dynamics
   - Applications in urban planning and policy analysis
