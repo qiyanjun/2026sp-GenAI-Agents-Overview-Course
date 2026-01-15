@@ -349,17 +349,32 @@ World models enable agents to build internal representations of their environmen
   - RL version of AgentGym for learning from interactive environments
   - Interactive frontend for trajectory visualization, multi-turn RL
 
-+ b. Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling (December 2025)
-  - Link: https://arxiv.org/abs/2512.14474
++ b. DreamerV3: Mastering Diverse Control Tasks through World Models
+  - Nature (April 2025) / [arXiv](https://arxiv.org/abs/2301.04104) | [GitHub](https://github.com/danijar/dreamerv3)
+  - A general reinforcement-learning algorithm that outperforms specialized expert algorithms across diverse tasks by learning a model of the environment and improving its behaviour by imagining future scenarios.
+  - Dreamer succeeds across domains ranging from robot locomotion and manipulation tasks over Atari games, procedurally generated ProcGen levels, and DMLab tasks to the complex and infinite world of Minecraft.
+  - First algorithm to collect diamonds in Minecraft from scratch without human data or curricula
+  - Uses Recurrent State-Space Model (RSSM) for latent imagination and planning
 
-  Two-Phase Paradigm:
-  1. Modeling Phase: LLM constructs explicit model (entities, state variables, actions, constraints)
-  2. Solution Phase: Generate plan based on explicit model
-  - Reduces constraint violations across medical scheduling, route planning, resource allocation, logic puzzles
-  - Outperforms Chain-of-Thought and ReAct
-  - Critical finding: Many planning failures stem from representational deficiencies, not reasoning limitations
++ c. V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning
+  - [arXiv](https://arxiv.org/abs/2506.09985) | [GitHub](https://github.com/facebookresearch/vjepa2) | [Meta AI](https://ai.meta.com/vjepa/)
+  - The first world model trained on video that achieves state-of-the-art visual understanding and prediction, enabling zero-shot robot control in new environments.
+  - Post-training a latent action-conditioned world model, V-JEPA 2-AC, using less than 62 hours of unlabeled robot videos from the Droid dataset enables zero-shot deployment on Franka arms without collecting any data from those environments.
+  - V-JEPA 2-AC achieves reach = 100%, manipulation = 60–80% compared to Cosmos's reach = 80%, manipulation = 0–20%, while being 15× faster (16 seconds/action vs 4 minutes).
+  - Predicts in representation space rather than pixel space—key innovation for efficient planning
 
-  Domains Tested: Medical scheduling, route planning, resource allocation, logic puzzles, procedural synthesis
++ c. NVIDIA Cosmos: World Foundation Model Platform for Physical AI
+  - [NVIDIA Cosmos](https://www.nvidia.com/en-us/ai/cosmos/) | [Technical Report](https://arxiv.org/abs/2501.03575)
+  - Open world foundation models (WFMs), guardrails, and data processing libraries to accelerate the development of physical AI for autonomous vehicles (AVs), robots, and video analytics AI agents.
+  - WFMs are purpose-built for physical AI research and development, and can generate physics-based videos from a combination of inputs, like text, image and video, as well as robot sensor or motion data.
+  - Cosmos Reason—a new open, customizable, 7-billion-parameter reasoning VLM for physical AI and robotics—lets robots and vision AI agents reason like humans using prior knowledge, physics understanding and common sense.
+  - Early adopters include 1X, Agility Robotics, Figure AI, Skild AI, Boston Dynamics
+
++ d. RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control
+  - [DeepMind Blog](https://deepmind.google/blog/rt-2-new-model-translates-vision-and-language-into-action/)
+  - RT-2 shows that vision-language models (VLMs) can be transformed into powerful vision-language-action (VLA) models, which can directly control a robot by combining VLM pre-training with robotic data.
+  - Thanks to its VLM backbone, RT-2 can plan from both image and text commands, enabling visually grounded planning, whereas current plan-and-act approaches like SayCan cannot see the real world and rely entirely on language.
+  - Uses PaLM-E and PaLI-X backbones; demonstrates chain-of-thought reasoning for multi-stage semantic reasoning
 
 
 ---
@@ -390,6 +405,20 @@ How agents break down complex tasks, form plans, and orchestrate multi-step work
   - Search strategies: Backtracking, parallel exploration, beam search (best: two-level beam search)
 
   Use Cases: Code translation, digital grid transformation rules
+
++ b. Model-First Reasoning LLM Agents: Reducing Hallucinations through Explicit Problem Modeling (December 2025)
+  - Link: https://arxiv.org/abs/2512.14474
+
+  Two-Phase Paradigm:
+  1. Modeling Phase: LLM constructs explicit model (entities, state variables, actions, constraints)
+  2. Solution Phase: Generate plan based on explicit model
+  - Reduces constraint violations across medical scheduling, route planning, resource allocation, logic puzzles
+  - Outperforms Chain-of-Thought and ReAct
+  - Critical finding: Many planning failures stem from representational deficiencies, not reasoning limitations
+
+  Domains Tested: Medical scheduling, route planning, resource allocation, logic puzzles, procedural synthesis
+
+
 
 
 ---
