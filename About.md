@@ -69,9 +69,15 @@ Student teams are expected to:
 + Final grades will be based on.
   - 10% for the course attendance (starting from W4)
   - 10% for the your weekly reading log (starting from W4)
+    + For the weekly reading log item, you just need to write one sentence per paper each week. So if I assign 6 papers for a given week, your log would simply be 6 sentences, aka, one for each paper. In total, we will have about 10 weeks of reading assignments; each will be 1 point into the final grade, so in total it will be 10% of your final grade. 
+
   - 20% for the quality of your seminar presentations; 
-  - 30% for the quality of your first course projects; 
+    + A template will be provide to help you draft
+
+  - 30% for the quality of your first course projects;
+    + Please check out details in the project-guide page (sidebar) 
   - 30% for the quality of your second course projects; 
+    + Please check out details in the project-guide page (sidebar) 
 
 
 
