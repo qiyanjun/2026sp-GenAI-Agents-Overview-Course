@@ -125,7 +125,7 @@ team-x/
 + Please select an appliation domain to build an end to end LLM agent 
 + or building Evaluation Infrastructure / Benchmarks and testing frameworks for emerging domains lacking standardized evaluation.
  
-+ Example domains include like the following: 
++ Example domains include like the following and many more : 
 
 
 + **Software Engineering**
@@ -205,7 +205,7 @@ team-x/
   - **10 (Training):** Learn optimization and customization techniques
   - **11 (Deployment):** Understand production infrastructure and serving systems
 
-+ Or Please select a project to deep dive one aspect of LLM agents like the following Cross-Domain Projects
++ Alternatively, you can also select a project to deep dive one aspect of LLM agents on Cross-Domain Projects like 
   - Multi-Agent Coordination / Systems where specialized agents collaborate (literature review + data analysis + writing agents).
   - Human-AI Collaboration / Interfaces combining human expertise with agent capabilities, including handoff mechanisms.
   - Explainability Frameworks / Agents that explain reasoning in domain-appropriate ways for healthcare, finance, or legal contexts.

@@ -67,10 +67,11 @@ Student teams are expected to:
 + Sit-in: No. This course is for registered students only.
 
 + Final grades will be based on.
-  - 15% for the course attendance 
-  - 15% for the quality of your seminar presentations; 
-  - 35% for the quality of your first course projects; 
-  - 35% for the quality of your second course projects; 
+  - 10% for the course attendance (starting from W4)
+  - 10% for the your weekly reading log (starting from W4)
+  - 20% for the quality of your seminar presentations; 
+  - 30% for the quality of your first course projects; 
+  - 30% for the quality of your second course projects; 
 
 
 
@@ -83,41 +84,13 @@ It follows the **Perception → World Modeling → Planning → Action → Learn
 
 **Course Organization:** 
 
-This syllabus is organized around the core components of LLM agent architectures: Brain (Reasoning Engine), Perception (Input Processing), 
-Memory Systems, Action & Tools, Planning & Orchestration, Multi-Agent Collaboration, and Safety & Evaluation.
-
-**Note:** This schedule is tentative and continually subject to change. We will move at whatever pace we find comfortable.
-
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     AGENT ARCHITECTURE                       │
-├─────────────────────────────────────────────────────────────┤
-│                                                              │
-│  BRAIN (Reasoning Engine) ────────────────────┐            │
-│   ↓                                            │            │
-│  PERCEPTION (Input Processing) ←───────────────┤            │
-│   ↓                                            │            │
-│  MEMORY (Context & Knowledge) ←────────────────┤            │
-│   ↓                    ↓                       │            │
-│  WORLD MODEL (Environment Understanding) ←─────┤            │
-│   ↓                                            │            │
-│  PLANNING (Task Decomposition) ←───────────────┤            │
-│   ↓                                            │            │
-│  ACTION (Tool Use & Execution) ←───────────────┤            │
-│   ↓                                            │            │
-│  MULTI-AGENT (Collaboration) ←─────────────────┤            │
-│   ↓                                            │            │
-│  SAFETY & EVALUATION ──────────────────────────┘            │
-│   ↓                                                          │
-│  DEPLOYMENT & SERVING                                        │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
-```
+This syllabus is organized around 
 
 ## Learning Objectives by Phase (Roughly per week one phase to cover this Semester)
 
-- **Phase 1 (Foundations & Overview):** Grasp the fundamental concepts and architecture of LLM agents
+
+- **Phase 0 (Foundations & Overview):** Grasp the fundamental concepts and architecture of LLM agents
+- **Phase 1 (Applications):** Translate agent capabilities into real-world domains and products; study case studies, human-in-the-loop workflows, and impact measurement
 - **Phase 2 (Brain & Reasoning):** Understand the core LLM capabilities that enable agentic behavior
 - **Phase 3 (Perception):** Learn how agents process multimodal and domain-specific inputs
 - **Phase 4 (Memory):** Master memory architectures and knowledge management systems
@@ -128,195 +101,15 @@ Memory Systems, Action & Tools, Planning & Orchestration, Multi-Agent Collaborat
 - **Phase 9 (Safety):** Address ethical, safety, and alignment challenges in agent deployment
 - **Phase 10 (Training):** Learn optimization and customization techniques
 - **Phase 11 (Deployment):** Understand production infrastructure and serving systems
-- **Phase 12 (Applications):** Translate agent capabilities into real-world domains and products; study case studies, human-in-the-loop workflows, and impact measurement
-
-
----
-
-## PHASE 1: FOUNDATIONS - The Agent "Basics" 
-
-**Core Component:** LLM as the Central Reasoning Engine
-
-Understanding the foundation model that serves as the "brain" of agentic systems - the core reasoning, language understanding, and decision-making capabilities.
-
-**Key Concepts:** Deep neural networks, transformer architecture, emergent abilities, multimodal capabilities, recent architectural advances
 
 
 
-
-### Here are the related slide deck from the previous two course offerings:
-
-| Topic | Slide Deck | Previous Semester  |
-|-------|------------|-------------------|
-| Introduction to Deep NLP Basics | W1.1-deepNNtext | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| LLM Basics - Emergent Ability and GenAI Platform | W1.2-IntroLLMv3 | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| More LLM Basics - A Survey | W2.1-moreLLM |  [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| LLM Basics Foundation | S0-Intro | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| Survey: LLMs and Multimodal FMs | S1-LLM | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| Recent LLM Basics | W13-RecentLLMbasics | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| Advanced Transformer Architectures | W14_LLM_advanced_arch |  [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-
-
-### 2025 HIGH-IMPACT PAPERS on this topic 
-
-+ a. Large Language Model Agent: A Survey on Methodology, Applications and Challenges (March 2025)
-  - Link: https://arxiv.org/abs/2503.21460
-  - GitHub: https://github.com/luo-junyu/Awesome-Agent-Papers
-  - Framework Coverage: Brain-Perception-Action model, memory systems, planning mechanisms, multi-agent coordination, evolutionary pathways, evaluation methodologies
-
-
-+ b. A Survey on Large Language Model based Autonomous Agents** (Updated March 2025)
-  - arXiv: https://arxiv.org/abs/2308.11432  
-  - Unified framework: Brain (profiling, memory, planning, action)
-  - Extensive application coverage: single-agent, multi-agent, human-agent cooperation
-  - Agent societies analysis: behavior, personality, social phenomena
-
-
-+ c. SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks? (September 2025)
-  - arXiv: https://arxiv.org/abs/2509.16941
-  - Leaderboard: https://scale.com/leaderboard/swe_bench_pro_public
-  - 1,865 problems from 41 actively maintained repositories
-  - Enterprise-level complexity: Tasks requiring hours to days for professional engineers
-  - Multi-file modifications: Substantial code changes across repositories
-  - Three datasets: Public (11 repos), held-out (12 repos), commercial (18 proprietary repos)
-  - Contamination-resistant: GPL-licensed and commercial codebases
-
-
-+ d. From LLMs to LLM-based Agents for Software Engineering: A Survey (August 2024, Updated 2025)
-  - Link: https://arxiv.org/html/2408.02479v2
-  - Six key topics: Requirement engineering, code generation, autonomous decision-making, software design, test generation, software maintenance
-
-
-+ e. LLM-Powered AI Agent Systems and Their Applications in Industry (May 2025)
-  - Link: https://arxiv.org/html/2505.16120v1
-
-+ f. A Survey of AI for Materials Science: Foundation Models, LLM Agents, Datasets, and Tools (2025)
-  - Referenced in: https://github.com/luo-junyu/Awesome-Agent-Papers
-  - Comprehensive taxonomy of FMs in materials science
-  - Reviews advances, resources, and future directions
-  - Integration of agents in materials discovery workflows
 
 
 ---
 
-## PHASE 2: REASONING & COGNITION 
-**Core Component:** Advanced Reasoning Capabilities of the Agent Brain
 
-Exploring how agents reason through complex problems, including code generation, mathematical reasoning, and domain-specific reasoning.
-
-**Key Concepts:** Chain-of-thought reasoning, code generation, mathematical reasoning, self-examination, test-time compute scaling
-
-| Topic | Slide Deck | Previous Semester  |
-|-------|------------|-------------------|
-| Advanced LLM - Code Reasoning | W4.1-Gen AI-code |  [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/)  |
-| Advanced LLM - Math Reasoning | W4.2-LLM-Math-Reasoning |  [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/)  |
-| Inference Test Time Scaling Law | Week14.1-T5-Test-Time-Scaling | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Self-exam LLM and Reasoning | W12-team-2-self-exam-LLM | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)  |
-
-
-### 2025 HIGH-IMPACT PAPERS on this topic 
-
-+ a. DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning (January 2025)
-  - Authors: DeepSeek-AI (198 authors)
-  - Venue: Nature (September 2025) + arXiv
-  - arXiv: https://arxiv.org/abs/2501.12948
-  - Nature: https://www.nature.com/articles/s41586-025-09422-z  
-  - HuggingFace: https://huggingface.co/papers/2501.12948
-  - GitHub: https://github.com/deepseek-ai/DeepSeek-R1
-  - Pure RL approach - Shows reasoning emerges without supervised demonstrations
-  - Remarkable results: AIME 2024 accuracy jumped from 15.6% → 71.0% (pass@1) → 86.7% (majority voting), matching OpenAI o1
-  - Emergent behaviors: Self-reflection, verification, strategy adaptation, "aha moments"
-  - Open source: Released models from 1.5B to 671B parameters
-  - Industry impact: Triggered the "reasoning model" race across all major labs
-  - Key Innovation: Demonstrates that advanced reasoning patterns emerge naturally through GRPO (Group Relative Policy Optimization) without human-labeled trajectories. The paper shows thinking time scales with performance - agents learn to "think longer" for harder problems.
-
-
-+ b. Reasoning Language Models: A Blueprint (January 2025)
-  - https://arxiv.org/abs/2501.11223
-  - Reinforcement learning approaches for reasoning
-  - Connects to DeepSeek-R1, Kimi k1.5, and other reasoning models
-  - Comprehensive taxonomy of RLVR (Reinforcement Learning with Verifiable Rewards)
-  - Discusses emergent reasoning patterns and distillation to smaller models
-
-
----
-
-## PHASE 3: PERCEPTION & INPUT PROCESSING 
-
-Understanding how agents perceive and process different types of information from their environment.
-
-**Core Component:** How Agents Process and Understand Environmental Inputs
-**Key Concepts:** Domain-specific perception, multimodal input processing, specialized domain understanding (bio, healthcare, robotics)
-
-
-| Topic | Slide Deck | Previous Semester  |
-|-------|------------|-------------------|
-| Survey - BioScience LLMs | W2.2-bioLM | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Survey - FMs in Healthcare | W3.1-GenAI-healthcare | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Survey - FMs in Robotics | W3.2-GenAI-Robotics | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Multimodal FMs - Video/Audio | W12.1.25-multimodalGenAI | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Domain Centered FMs | W9-T2-domain-LLM | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-
-
-### 2025 HIGH-IMPACT PAPERS on this topic 
-
-
----
-
-## PHASE 4: MEMORY SYSTEMS 
-
-Exploring how agents maintain, retrieve, and use information across interactions.
-
-**Core Component:** Agent Memory Architecture - Context, Knowledge, and Persistence
-**Key Concepts:** RAG systems, long-term vs short-term memory, context window management, knowledge augmentation, hallucination mitigation, model editing
-
-
-| Topic | Slide Deck | Previous Semester  |
-|-------|------------|-------------------|
-| Platform - Context Construction via RAG and Agent | W5.2.Team6-RAGagent | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Platform - Long Context vs RAG + Hallucination | W9.2-Team2-longContext | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Knowledge Augmented FMs | W8-T1-KnowledgeAugmentedFMs.pdf | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| LLM Hallucination | W9-Team3-P4-hallucination | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-
-
-### 2025 HIGH-IMPACT PAPERS on this topic 
-
-+ a. Memory in the Age of AI Agents: A Survey (2025)
-  - GitHub Repository: https://github.com/Shichun-Liu/Agent-Memory-Paper-List
-  - Comprehensive Coverage of Memory Systems:
-    - MIRIX: Multi-Agent Memory System (July 2025)
-    - Hierarchical Memory: Efficient long-term reasoning (July 2025)
-    - G-Memory: Tracing memory for multi-agent systems (June 2025)
-    - MemGuide: Intent-driven memory selection (May 2025)
-    - EverMemOS: Self-organizing memory operating system (January 2026)
-    - Key Distinction: Agent memory vs LLM memory vs RAG vs context engineering
-  - Major Papers:
-    - A-MEM: Agentic Memory for LLM Agents (Feb 2025)
-    - WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning (Dec 2025)
-    - CAM: Constructivist View of Agentic Memory (Oct 2025)
-
----
-
-## PHASE 5: ACTION & TOOL USE 
-Understanding how agents execute actions through external tools, APIs, and interfaces.
-
-**Core Component:** Agent-Computer Interface (ACI) - How Agents Interact with Tools and Systems
-**Key Concepts:** Prompt engineering, tool calling, function APIs, agent tooling frameworks, efficient tool use
-
-
-
-| Topic | Slide Deck | Previous Semester  |
-|-------|------------|-------------------|
-| Platform - Prompting Engineering Tools / Compression | W5.1.Team5-Prompt | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Platform - Agent Tooling | W6.1-team2-master-ai-agent-book-review | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Platform - More Agent Related | W6.2-team2-agent24-full | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Prompt Engineering | W11-team-2-prompt-engineering-2 | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| Bonus Session: KV Cache, Tooling and WMDP | W15-KVcahe-WMDP-Tools | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-
-
-
-
-### 2025 HIGH-IMPACT PAPERS on this topic 
+## PHASE 5: 
 
 
 
@@ -472,28 +265,7 @@ Understanding how multiple agents work together to solve complex problems.
 
 ---
 
-## PHASE 9: RISK, SAFETY, Evaluation & GUARDRAILS 
-**Core Component:** Agent Safety Systems - Ensuring Reliable, Ethical, and Secure Operation
-
-Addressing safety, alignment, and ethical considerations in agent deployment.
-
-| Topic | Slide Deck | Previous Semester  |
-|-------|------------|-------------------|
-| Platform - Model Jailbreaking / Safeguarding | W7.1-team3-jailbreak | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Platform - VLM Jailbreaking / Probing | W7.2-team4-MMJailbreak-garak | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| Agent Safety | W10.2-team4-agent-safety | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-| LLM Evaluating Framework | W3-LLMEvaluation-Team5 | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| GenAI Guardrails | W3-Guardrail-Team3 | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| Survey: Human Alignment | W4-LLM-Human-Alignment | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| Survey: AI Risk Framework | W5-AI-RiskFramework | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| FM Copyright Infringement | W5-FM-copyright-infrigement | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| FM Privacy Leakage Issues | W6-FM-privacy-leakage | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| FM Fairness / Bias Issues | W6-LLM-Bias-Fairness-Team5 | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| FM Toxicity / Harmful Outputs | W7-LLM-harm | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| LLM Multimodal Harm Responses | W7-multimodal-LLMharm | [24course](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/) |
-| More FM Risk / Extra - Agent Guardrailing | W8-Team3-P3-moreRisk.pdf | [25course](https://qiyanjun.github.io/2025sp-GenAI-overview/) |
-
-
+## PHASE 9: 
 
 - OSWorld Leaderboard: https://os-world.github.io/ (Industry standard for computer-use evaluation)
 - WebArena Project: https://webarena.dev/ (Foundational for web agent development)
@@ -566,13 +338,6 @@ Techniques for improving model capabilities and efficiency.
 
 
 ### 2025 HIGH-IMPACT PAPERS on this topic 
-+ a. Kimi k1.5: Scaling Reinforcement Learning with LLMs (January 2025)
-  - Link: https://arxiv.org/abs/2501.12599
-
-  Contribution: Alternative approach to scaling reasoning via RL
-  - Complements DeepSeek-R1 with different architectural choices
-  - Emphasizes scaling strategies for RL training
-  - Addresses computational efficiency in large-scale RL
 
 
 + b. The Landscape of Agentic Reinforcement Learning for LLMs (September 2025)
@@ -612,77 +377,6 @@ Understanding the infrastructure and systems for deploying agents in production.
 ### 2025 HIGH-IMPACT PAPERS on a related topic: benchmaarking after deployed 
 
 
-## PHASE 12: AGENT APPLICATIONS
-**Core Component:** Translating Agent Architectures into Real-World Systems
-
-Focus on how agent capabilities are adapted to specific domains and product workflows, including user experience, operational constraints, and measurable impact.
-
-**Key Concepts:** Domain adaptation, workflow integration, human-in-the-loop design, reliability in production, evaluation in context, compliance and governance, and case studies (software, education, healthcare, finance, science, and robotics)
-
-
-### 2025 HIGH-IMPACT PAPERS on a related topic:
-
-
-+ a. Deep Research: A Survey of Autonomous Research Agents (August 2025)
-  - Link: https://arxiv.org/html/2508.12752v1
-
-  Research Agent Architecture:
-  - Planning strategies: World model simulation, modular design search, human-like reasoning synthesis, self-refinement
-  - World models: LLMs as implicit world models, graph-based structured knowledge
-  - Meta-learning: MPO (Meta-Plan Optimization) - adaptive tuning across environments
-  - Architecture search: AgentSquare for automatic pipeline assembly
-
-  DeepResearchBench: Evaluates report fidelity, citation accuracy, comprehensive coverage
-
-  Key Challenge: Plan brittleness, lack of robustness to ambiguous queries, evaluation coarseness
-
-+ b. Towards Scientific Intelligence: LLM-based Scientific Agents (2025)
-  - Roadmap for scientific discovery with LLM agents
-
-+ c. A Survey of Data Science Agents (Published October 2025)
-  - Venue: Journal of the American Statistical Association
-  - Link: https://www.tandfonline.com/doi/full/10.1080/00031305.2025.2561140
-  - Comprehensive review of LLM agents for data analysis, visualization, ML workflows
-
-+ d. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
-  - Urban simulation using recursive value-driven approach
-  - Scalable agent-based modeling for city dynamics
-
-+ e. From Single-Agent to Multi-Agent: Legal Agents Review (November 2025)
-  - Venue: AI Agent Journal 2025
-  - Link: https://www.oaepublish.com/articles/aiagent.2025.06
-  - Core tasks: Legal information retrieval, QA, judgment prediction, text generation
-  - Evaluation benchmarks: LAiW (Chinese practical), UCL-Bench (user-centric), JuDGE (judgment documents)
-  - Single-agent challenges: Trustworthiness, explainability, factuality
-  - Multi-agent systems: Collaborative reasoning, specialized roles (researcher, analyst, writer)
-  - Future directions: Cross-jurisdictional interoperability via legal knowledge graphs, ethical governance
-
-
-+ f. LitMOF: LLM-Driven Multi-Agent Curation of Materials Database (December 2025)
-  - Link: https://arxiv.org/abs/2512.01693
-  - Problem: Nearly half of Metal-Organic Framework (MOF) database entries contain structural errors
-  - Solution: Multi-agent framework validating crystallographic information from literature
-  - Results:
-    - Curated LitMOF-DB: 118,464 computation-ready structures
-    - Corrected 69% (6,161 MOFs) of invalid entries in CoRE MOF database
-    - Discovered 12,646 experimentally reported MOFs absent from existing resources
-  - Paradigm: Self-correcting scientific databases through LLM-driven curation
-
-
-+ g. LongVideoAgent: Multi-Agent Reasoning with Long Videos (December 2025)
-  - Link: https://arxiv.org/abs/2512.20618
-  Architecture:
-  - Master agent: Coordinates with step limit, trained via RL
-  - Grounding agent: Localizes question-relevant segments
-  - Vision agent: Extracts targeted textual observations from video
-  - Training: Reinforcement learning to encourage concise, correct, efficient cooperation
-  - Benchmark: LongTVQA and LongTVQA+ (episode-level datasets from TVQA/TVQA+)
-  - Results: Significantly outperforms non-agent baselines on hour-long video reasoning
-
-+ h. CitySim: Modeling Urban Behaviors with LLM-Driven Agents (2025)
-  - Urban simulation using recursive value-driven approach
-  - Scalable agent-based modeling for city dynamics
-  - Applications in urban planning and policy analysis
 
 
 ---
