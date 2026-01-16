@@ -12,12 +12,12 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 
 ### Each student team is expected to finish two different course projects. 
 + Each team need to deliver two different course projects
-  - Course Project A: Build agents to benefit domains like healthcare, finance or .....
-  - Course Project B: A deep dive project on a component of LLM agents or property of LLM agents ... 
-  - Project B and be an exension from Course A (highly recommended!)
+  - Project A: Build agents to benefit domains like healthcare, finance or .....
+  - Project B: A deep dive project on a component of LLM agents or property of LLM agents ... 
+  - Project B can be an exension from Project A (highly recommended!)
 
-+ We will provide a sheet of project A ideas for your team to select or contribute from your own by third week, Plese select your team session in the signup sheets ! 
-+ We will a sheet of project B ideas for your team to select or contribute from your own by sixth week, Plese select your team session in the signup sheets ! 
++ We will provide a sheet of project A ideas for your team to select or contribute from your own by third week, Plese select your team session in the coming signup sheets ! 
++ We will a sheet of project B ideas for your team to select or contribute from your own by sixth week, Plese select your team session in the coming signup sheets ! 
 
 
 
