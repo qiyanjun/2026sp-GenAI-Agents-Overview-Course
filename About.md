@@ -104,6 +104,37 @@ This syllabus is organized around
 
 #### Please check out more details of each phase in [our main schedule page](https://qiyanjun.github.io/2026sp-GenAI-Agents-Overview-Course/)
 
+
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     AGENT ARCHITECTURE                       │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│  BRAIN (Reasoning Engine) ────────────────────┐            │
+│   ↓                                            │            │
+│  PERCEPTION (Input Processing) ←───────────────┤            │
+│   ↓                                            │            │
+│  MEMORY (Context & Knowledge) ←────────────────┤            │
+│   ↓                    ↓                       │            │
+│  WORLD MODEL (Environment Understanding) ←─────┤            │
+│   ↓                                            │            │
+│  PLANNING (Task Decomposition) ←───────────────┤            │
+│   ↓                                            │            │
+│  ACTION (Tool Use & Execution) ←───────────────┤            │
+│   ↓                                            │            │
+│  MULTI-AGENT (Collaboration) ←─────────────────┤            │
+│   ↓                                            │            │
+│  SAFETY & EVALUATION ──────────────────────────┘            │
+│   ↓                                                          │
+│  DEPLOYMENT & SERVING                                        │
+│   ↓                                                          │
+│  APPLICATIONS                                               │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+
 ---
 
 ## RESOURCES FOR FURTHER STUDY
@@ -206,3 +237,4 @@ As your professor and as a person, know that I care about you and your well-bein
 
 ### This syllabus
 This syllabus is to be considered a reference document that can and will be adjusted through the course of the semester to address changing needs. This syllabus can be changed at any time without notification. It is up to the student to monitor this page for any changes. Final authority on any decision in this course rests with the professor, not with this document.
+
