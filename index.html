@@ -38,7 +38,6 @@ desc: 'Website for 2026 Spring -UVA-CS 2025sp-GenAI-LLM-Agents-Overview (Graduat
  <h3><b>
   <th>Date</th>
   <th>Week</th>
-  <th>Phase</th>
   <th>Team Talk</th>
   <th>Project</th>
   <th>Title / Information </th>
@@ -61,9 +60,10 @@ desc: 'Website for 2026 Spring -UVA-CS 2025sp-GenAI-LLM-Agents-Overview (Graduat
 {% assign ddates = "|0113|0115|0127|0129|0203|0205|0210|0212|0217|0219|0224|0226|0310|0312|0317|0319|0324|0326|0331|0402|0407|0409|0414|0416|0421|0423|0428 " | split: "|" %}
 
 {% assign dweeks = "|W1|W1|W3| |W4| |W5| |W6| |W7| |W9| |W10| |W11| |W12| |W13| |W14| |W15| |W16 " | split: "|" %}
-{% assign pweeks = "||P0|P1| |P2| |P3| |P4| |P5| |P6| |P7| |P8| |P9| |P10| |P11| |P12| | " | split: "|" %}
 
-{% assign talkweeks = "|||T1| |T2|  |T3|  |T4| |T5|  |T6|  |T7 || T8 |  |T9 | |T10| |T11| |Project | Poject | Project " | split: "|" %}
+<!--{% assign pweeks = "||P0|P1| |P2| |P3| |P4| |P5| |P6| |P7| |P8| |P9| |P10| |P11| |P12| | " | split: "|" %}-->
+
+{% assign talkweeks = "||| || T1| |T2|  |T3|  |T4| |T5|  |T6|  |T7 || T8 |  |T9 | |T10| |T11| | | " | split: "|" %}
 {% assign projectws = "| | Teaming due || Baseline-A | | Proposal-A | | Mid-A| |Final-A| | |  |Baseline-B | |Proposal-B | |Mid-B| | Final-B| || |Demo-A|||Demo-B| " | split: "|" %}
 
 
@@ -101,7 +101,6 @@ desc: 'Website for 2026 Spring -UVA-CS 2025sp-GenAI-LLM-Agents-Overview (Graduat
   <tr >
     <td>{{ ddates[counter] }} </td>
     <td>{{ dweeks[counter] }}</td>
-    <td>{{ pweeks[counter] }}</td>
     <td>{{ talkweeks[counter] }}</td>
     <td>{{ projectws[counter] }}</td>
 {% endif %}
