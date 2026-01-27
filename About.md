@@ -20,7 +20,7 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 + TuTh 3:30pm - 4:45pm  
 + Rice Hall
 
-+ It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar plus projects using team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
++ It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in a seminar plus projects using team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
 
 + 2025 spring's same course website was [here](https://qiyanjun.github.io/2025sp-GenAI-overview/)
   - [25 Spring course's students project github HERE](https://github.com/Qdata4Capstone/uva-25-spring-genai-students-projects/tree/main/students-projects-code)
@@ -34,23 +34,23 @@ desc: "Information for 2026 Spring UVa CS -GenAI-Overview"
 
 Student teams are expected to:
 
-+ Present One SOTA Topics. For each topic, a slide deck and an in-class presentation is expected from a team: 
++ Present One SOTA Topic. For each topic, a slide deck and an in-class presentation is expected from a team: 
   - Example of Slide deck: [here](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits//Lectures/W3-LLMEvaluation-Team5.pdf)
   - We recommend students to use 365 powerpoint [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=713ff34fdb3ac744f032f1f51d961937#login) to support their co-editing of presentation slide decks. 
 
 + Finish two course projects  
   - Course Project A: Build agents to benefit domains like healthcare, finance or .....
   - Course Project B: A deep dive project on a component of LLM agents or property of LLM agents ... 
-  - Please check out more details on project viathe Project Guide Page via sidebar! 
+  - Please check out more details on project via the Project Guide Page via sidebar! 
 
-+ Participate actively in class meets. This means being prepared to contribute by presenting assigned papers, and working activerly on your course projects.
++ Participate actively in class meets. This means being prepared to contribute by presenting assigned papers, and working actively on your course projects.
 
 
 ### Course Websites
 
 + Course schedule and materials  @ [https://qiyanjun.github.io/2025sp-GenAI-overview/](https://qiyanjun.github.io/2025sp-GenAI-overview/)
-+  Assignment submissions via [Cavas site:](https://canvas.its.virginia.edu) 
-+ Course annoucement via Canvas Annoucement
++  Assignment submissions via [Canvas site:](https://canvas.its.virginia.edu) 
++ Course announcements via Canvas Announcements
 + Course Discussion via Course Slack Space (please ask TA to get you in!) 
 
 
@@ -58,7 +58,7 @@ Student teams are expected to:
   - Prof. [Yanjun Qi](https://qiyanjun.github.io/Homepage/) / [yanjun@virginia.edu](mailto:?);
   - TA: [Alex Su](mailto:acf7ea@virginia.edu)  
   - Instructor office hour: TBD
-  - TA office hours: TBD
+  - TA office hours: 10:00 AM - 12:00 PM on Fridays (see Canvas Announcements for Zoom link)
 
 
 ### Course Grading Policy

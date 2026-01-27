@@ -14,10 +14,10 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 + Each team need to deliver two different course projects
   - Project A: Build agents to benefit domains like healthcare, finance or .....
   - Project B: A deep dive project on a component of LLM agents or property of LLM agents ... 
-  - Project B can be an exension from Project A (highly recommended!)
+  - Project B can be an extension from Project A (highly recommended!)
 
-+ We will provide a sheet of project A ideas for your team to select or contribute from your own by third week, Plese select your team session in the coming signup sheets ! 
-+ We will a sheet of project B ideas for your team to select or contribute from your own by sixth week, Plese select your team session in the coming signup sheets ! 
++ We will provide a sheet of project A ideas for your team to select or contribute from your own by third week, Please select your team session in the coming signup sheets ! 
++ We will a sheet of project B ideas for your team to select or contribute from your own by sixth week, Please select your team session in the coming signup sheets ! 
 
 
 
@@ -41,7 +41,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
     - We will provide a template for drafting this report writeup. 
 
 
-+ One the project proposal and final presentation slide decks: 
++ On the project proposal and final presentation slide decks: 
   - Good slide deck and Great delivery of content at the demo session     
   - Clear definition of problem and importance
   - Clear presentation of related work
@@ -61,9 +61,9 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 
 + On your coding artifacts (aka also presented via demo presentation)
   + The project should be technical, employing methods including, but not limited to, those covered in class. Please keep your code and visualized results in well-organized code structure. 
-  + Please following the following instruction for organizing your PR to the project codebase: [tocome](tocome)
+  + Please follow the following instruction for organizing your PR to the project codebase: [tocome](tocome)
   
-    - Plese Follow the following folder structure to organize your team project artifacts:
+    - Please Follow the following folder structure to organize your team project artifacts:
     - Place all code scripts in the `src/` folder
     - Place all documentation in the `doc/` folder
     - A README.md will be helpful if you have one. 
@@ -122,7 +122,7 @@ team-x/
 
 ## Course Project A: Build agents to benefit domains like healthcare, finance or .....
 
-+ Please select an appliation domain to build an end to end LLM agent 
++ Please select an application domain to build an end to end LLM agent 
 + or building Evaluation Infrastructure / Benchmarks and testing frameworks for emerging domains lacking standardized evaluation.
  
 + Example domains include like the following and many more : 
