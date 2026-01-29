@@ -5,7 +5,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 ---
 
 ### Previous offering's student team projects: 
-- [25 Spring course's students project github HERE](https://github.com/Qdata4Capstone/uva-25-spring-genai-students-projects/tree/main/students-projects-code)
+- [25 Spring course's students project github HERE](https://github.com/Qdata4Capstone/uva-25-spring-genai-students-projects/)
 
 - Related student projects from Students who took 2025 Fall Undergraduate Machine Learning 
 [uva-machine-learning-25f-projects](https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects)
@@ -33,7 +33,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
   2. **Slide Deck + Presentation**: A slide deck summarizing your project and describing your results. Filling in the template slide pages will be enough (more is better!). The slide deck should include your YouTube video link and your codebase GitHub PR information. Use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx). Submit to Canvas.
     - We will provide a template for drafting this presentation talk deck. 
 
-  3. **Codebase**: A python Jupyter notebook (or codebase format that you prefer) to present the code, data visualization, and obtain results and analysis through step-by-step code cell runs. Submit via Pull Request to the course project GitHub: [https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects](https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects)
+  3. **Codebase**: A python Jupyter notebook (or codebase format that you prefer) to present the code, data visualization, and obtain results and analysis through step-by-step code cell runs. Submit via Pull Request to the course project GitHub: [toCome](https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects)
 
   4. **Code Demo Video**: A video uploaded to YouTube demonstrating your codebase in action, walking through key functionality and results. To minimize overhead time cost during presentations (switching, wrong setup, etc.), we expect you to record this demo video. Please practice the whole process a few times before recording. Share the YouTube link in your Canvas submission.
 
@@ -77,7 +77,7 @@ team-x/
 + How to PR to the project codebase: 
 
   - Step 1: Set up your local branch
-    * Go to the course repository and click Fork: https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects
+    * Go to the course repository and click Fork: [toCome]
     * Go to your new forked repository and clone it to your local environment:
       * `git clone https://github.com/<your-username>/uva-machine-learning-25f-projects.git`
     * Navigate into the cloned folder and add the original repository as an upstream remote:

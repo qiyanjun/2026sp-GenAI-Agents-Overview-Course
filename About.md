@@ -57,7 +57,7 @@ Student teams are expected to:
 + ##### Instructors: 
   - Prof. [Yanjun Qi](https://qiyanjun.github.io/Homepage/) / [yanjun@virginia.edu](mailto:?);
   - TA: [Alex Su](mailto:acf7ea@virginia.edu)  
-  - Instructor office hour: TBD
+  - Instructor office hour: Thursdays 4:30pm-6:30pm 
   - TA office hours: 10:00 AM - 12:00 PM on Fridays (see Canvas Announcements for Zoom link)
 
 
