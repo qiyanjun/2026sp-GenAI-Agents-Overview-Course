@@ -29,16 +29,21 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 
   1. **Proposal Talk**: A mini presentation to the instructors on your project idea. The presentation should explain WHY / WHAT / HOW on your project — intended to be a more conceptual, idea-based pitch. Please use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx) to help you pitch the idea.
     - We will provide a template for drafting this proposal talk deck. 
+    - This is required for both Project A and Project B
 
-  2. **Slide Deck + Presentation**: A slide deck summarizing your project and describing your results. Filling in the template slide pages will be enough (more is better!). The slide deck should include your YouTube video link and your codebase GitHub PR information. Use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx). Submit to Canvas.
+  2. **Slide Deck + Final Presentation**: A slide deck summarizing your project and describing your results. Filling in the template slide pages will be enough (more is better!). The slide deck should include your YouTube video link and your codebase GitHub PR information. Use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx). Submit to Canvas.
     - We will provide a template for drafting this presentation talk deck. 
+    - This is required for both Project A and Project B
 
   3. **Codebase**: A python Jupyter notebook (or codebase format that you prefer) to present the code, data visualization, and obtain results and analysis through step-by-step code cell runs. Submit via Pull Request to the course project GitHub: [toCome](https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects)
+    - This is required for both Project A and Project B
 
   4. **Code Demo Video**: A video uploaded to YouTube demonstrating your codebase in action, walking through key functionality and results. To minimize overhead time cost during presentations (switching, wrong setup, etc.), we expect you to record this demo video. Please practice the whole process a few times before recording. Share the YouTube link in your Canvas submission.
+    - This is required for both Project A and Project B
 
   5. **Project Report Writeup**: A detailed written report including introduction, background, related work, experimental design, results, and comparison to baselines.
     - We will provide a template for drafting this report writeup. 
+    - This is required for only by the end of the semester, more for the deep dive of Project B. 
 
 
 + On the project proposal and final presentation slide decks: 
