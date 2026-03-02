@@ -46,6 +46,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
     - We will provide a template for drafting this report writeup. 
     - This is required for only by the end of the semester, more for the deep dive of Project B. 
 
+  6. More details: 
 
 + On the project proposal and final presentation slide decks: 
   - Good slide deck and Great delivery of content at the demo session     
@@ -67,7 +68,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 
 + On your coding artifacts (aka also presented via demo presentation)
   + The project should be technical, employing methods including, but not limited to, those covered in class. Please keep your code and visualized results in well-organized code structure. 
-  + Please follow the following instruction for organizing your PR to the project codebase: [tocome](tocome)
+  + Please follow the following instruction for organizing your PR to the project codebase: for instance, for project A [uva-26-spring-gen-agent-students-projectA Git](https://github.com/Qdata4Capstone/uva-26-spring-gen-agent-students-projectA)
   
     - Please Follow the following folder structure to organize your team project artifacts:
     - Place all code scripts in the `src/` folder
@@ -83,11 +84,11 @@ team-x/
 + How to PR to the project codebase: 
 
   - Step 1: Set up your local branch
-    * Go to the course repository and click Fork: [toCome]
+    * Go to the course repository and click Fork: e.g. for Project A [uva-26-spring-gen-agent-students-projectA Git](https://github.com/Qdata4Capstone/uva-26-spring-gen-agent-students-projectA)
     * Go to your new forked repository and clone it to your local environment:
-      * `git clone https://github.com/<your-username>/uva-machine-learning-25f-projects.git`
+      * `git clone https://github.com/<your-username>/<the project gitname>`
     * Navigate into the cloned folder and add the original repository as an upstream remote:
-      * `git remote add upstream https://github.com/Qdata4Capstone/uva-machine-learning-25f-projects.git`
+      * `git remote add upstream <the project gitname>`
 
   - Step 2: Prepare your code
     * For each team, please create a folder named `team-XX` corresponding to your team ID (e.g., team-1, team-11, team-111).
