@@ -123,17 +123,17 @@ team-x/
 
 ###  How to Use Instances on UVa Rivanna HPC: 
 
-+ A helpful overview of the system, how to log in, and how to use the compute resources are available on the high-performance computing webpage:
-https://www.rc.virginia.edu/userinfo/hpc/overview/ 
++ A helpful overview of the system, how to log in, and how to use the compute resources are available on the high-performance computing webpage: 
+[https://www.rc.virginia.edu/userinfo/hpc/overview/](https://www.rc.virginia.edu/userinfo/hpc/overview/) 
 
 + VPN: 
-  - How to Install & Connect to VPN: https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=f24e5cdfdb3acb804f32fb671d9619d0 
-  - About VPN: https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=f24e5cdfdb3acb804f32fb671d9619d0 
-  - On VPN setup https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=0566b8d647cda210bb2b9c7b116d4333 
+  - How to Install & Connect to VPN: [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=f24e5cdfdb3acb804f32fb671d9619d0) 
+  - About VPN: [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=f24e5cdfdb3acb804f32fb671d9619d0) 
+  - On VPN setup: [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=0566b8d647cda210bb2b9c7b116d4333) 
 
 + HPC
-  - About Rivanna HPC: https://www.rc.virginia.edu/userinfo/faq/rivanna-faq/#how-do-i-log-on-to-rivanna  
-  - How to Login: https://www.rc.virginia.edu/userinfo/hpc/login/ 
+  - About Rivanna HPC: [here](https://www.rc.virginia.edu/userinfo/faq/rivanna-faq/#how-do-i-log-on-to-rivanna)  
+  - How to Login: [here](https://www.rc.virginia.edu/userinfo/hpc/login/) 
   - The UVA HPC systems (Rivanna and Afton) are accessible through a web portal, secure shell terminals, or a remote desktop environment. For of all of these access points, your login is your UVA computing ID and your password is your Eservices password. If you do not know your Eservices password you must change it through ITS.
   - Recommend to use the Web-based Access, as it provides an "always on interactive session" for up to 72 hours for a specific instance (e.g., for debugging purposes)
 
