@@ -140,8 +140,9 @@ team-x/
   - The UVA HPC systems (Rivanna and Afton) are accessible through a web portal, secure shell terminals, or a remote desktop environment. For of all of these access points, your login is your UVA computing ID and your password is your Eservices password. If you do not know your Eservices password you must change it through ITS.
   - Recommend to use the Web-based Access, as it provides an "always on interactive session" for up to 72 hours for a specific instance (e.g., for debugging purposes)
 
-+ Membership  
-  - Please send request to Prof. Qi to add your UVa ID into our class grouper. 
++ Allocation Membership  
+  - allocation "cs_6501-016-26sp" 
+  - Please send request to Prof. Qi to add your UVa ID into our class allocation grouper. 
   - Grouper allocation: https://groups.identity.virginia.edu/ui/grouperUi/app/UiV2Main.index?operation=UiV2Main.indexMain 
 
 
