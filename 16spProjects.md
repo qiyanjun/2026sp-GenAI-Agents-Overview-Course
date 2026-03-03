@@ -126,6 +126,9 @@ team-x/
 + A helpful overview of the system, how to log in, and how to use the compute resources are available on the high-performance computing webpage: 
 [https://www.rc.virginia.edu/userinfo/hpc/overview/](https://www.rc.virginia.edu/userinfo/hpc/overview/) 
 
++ A step by step guide on how to use [HERE](https://garified.github.io/rivanna-guide/) 
+  - This assumes you have finished the following VPN setups. 
+
 + VPN: 
   - How to Install & Connect to VPN: [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=f24e5cdfdb3acb804f32fb671d9619d0) 
   - About VPN: [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=f24e5cdfdb3acb804f32fb671d9619d0) 
