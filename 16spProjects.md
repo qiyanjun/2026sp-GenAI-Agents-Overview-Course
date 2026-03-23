@@ -30,6 +30,10 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
   1. **Proposal Talk**: A mini presentation to the instructors on your project idea. The presentation should explain WHY / WHAT / HOW on your project — intended to be a more conceptual, idea-based pitch. Please use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx) to help you pitch the idea.
     - We will provide a template for drafting this proposal talk deck. 
     - This is required for both Project A and Project B
+    - For each proposal, we ask from each team a proposal slide deck (minimum 7 slides) covering: 1. Title & team members; 2. Motivation; 3. Problem definition; 4. Approach; 5. Evaluation plan; 6. Timeline / risks / expected outcomes; 7. Division of responsibilities. 
+    - Please submit one slide deck per team (PDF or PPT). Any team member may upload on behalf of the team.
+    - Be prepared to present your slides during your scheduled meeting time briefly.
+    - The goal of this proposal is to help refine your project direction and gather early feedback.
 
   2. **Slide Deck + Final Presentation**: A slide deck summarizing your project and describing your results. Filling in the template slide pages will be enough (more is better!). The slide deck should include your YouTube video link and your codebase GitHub PR information.  Submit to Canvas.
     - Use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx) for drafting this presentation talk deck. 
