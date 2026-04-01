@@ -38,6 +38,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
   2. **Slide Deck + Final Presentation**: A slide deck summarizing your project and describing your results. Filling in the template slide pages will be enough (more is better!). The slide deck should include your YouTube video link and your codebase GitHub PR information.  Submit to Canvas.
     - Use [the given template]({{ site.baseurl }}/Lectures/ProjPresentationTemplate-1.pptx) for drafting this presentation talk deck. 
     - This is required for both Project A and Project B
+    - Extra attention should be paid to evaluation plan and evaluation implementation. We have two pages at Page9 and Page 10 on eavluation plan. Page 9 is about how to evaluate an LLM agent: Please fill the table in with how your agent evaluation cover the evaluation mode / metric / data / tooling / context; Page 10 is about what to evaluate on an LLM agent: Please fill the table with your specific evaluation plan on what specific components you are evaluating for your team's agent building?
 
   3. **Codebase**: A codebase format that you prefer to present the code, data visualization,  obtained results and analysis through step-by-step demo runs. 
     - This is required for  Project A / Submit via Pull Request to the course project GitHub: [uva-26-spring-gen-agent-students-projectA Git](https://github.com/Qdata4Capstone/uva-26-spring-gen-agent-students-projectA)
