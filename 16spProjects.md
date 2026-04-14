@@ -49,7 +49,13 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
 
   5. **Project Report Writeup**: A detailed written report including introduction, background, related work, experimental design, results, and comparison to baselines.
     - We will provide a template for drafting this report writeup. 
-    - This is required for only by the end of the semester, more for the deep dive of Project B. 
+    - This is not required for this semester. 
+
+  5. **User test of what you have built**
+  - instructors like to interact with the agents you built / are building!
+  - can treat this as the first real-user test of your agent! 
+  - This requires you to host your agent(s) on a publicly accessible server. The easiest way to host your agents is to use the UVA Rivanna cluster HPC instance. There are many other ways, like using some cloud instance... Just select the way that you prefer. 
+  - This is  required for this semester. 
 
   6. More details: 
 
