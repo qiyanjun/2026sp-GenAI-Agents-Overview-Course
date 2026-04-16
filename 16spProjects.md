@@ -56,6 +56,7 @@ desc: "Course Project Information for 2026 Spring UVa CS -GenAI-Overview"
   - can treat this as the first real-user test of your agent! 
   - This requires you to host your agent(s) on a publicly accessible server. The easiest way to host your agents is to use the UVA Rivanna cluster HPC instance. There are many other ways, like using some cloud instance... Just select the way that you prefer. 
   - This is  required for this semester. 
+  - You can use [this guide](https://github.com/qiyanjun/2026sp-GenAI-Agents-Overview-Course/blob/master/Lectures/project-guide-cli-tunnel.pdf) to help you set up a publicly accessible URL for your agent. 
 
   6. More details: 
 
